@@ -1,0 +1,16 @@
+body { container: system-ui;
+background-color:orange; 
+color:blue;
+  text-align: center;
+height:800px;
+width:900px;
+margin:auto;
+} 
+div{
+  backgroung-image:
+    
+    url(
+"https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="500">);
+  backgroung repeat:no-repeat;
+  background-color:yellow;
+}
