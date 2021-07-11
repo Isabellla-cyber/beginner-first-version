@@ -215,38 +215,3 @@ body {top: 0px!important;}
 }
 
 
-:root{
-	font-size:5rm;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: boder-box;
-}
-html,body{
-	height:100%;
-}
-body{
-	display:grid;
-	justify-items:center;
-	align-items:center;
-	background-color:1E1F26;
-}
-button{
-	border: 0.2rem solid #444857;
-	border-radius: 0.25rem;
-	height:2.75rem;
-	width:3.5rm;
-	lign-heigth:2.5rem;
-	font-size:1.2rem;
-	color:#ADAFBC;
-	background-color:transparent;
-	transition:transform 50ms;
-}
-	
-button:hover{
-	background-color:5A5F73;
-}
-button:active{
-	transform:translateY(0.1rm);
-}
