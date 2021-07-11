@@ -215,3 +215,22 @@ body {top: 0px!important;}
 }
 
 
+:root{
+	font-size:5rm;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: boder-box;
+}
+html,body{
+	height:100%;
+}
+body{
+	display:grid;
+	justify-items:center;
+	align-items:center;
+	background-color:1E1F26;
+}
+button{
+	
