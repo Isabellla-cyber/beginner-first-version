@@ -244,3 +244,6 @@ button{
 	transition:transform 50ms;
 }
 	
+button:hover{
+	background-color:5A5F73;
+}
