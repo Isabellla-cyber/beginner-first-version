@@ -4,6 +4,7 @@ $(document).ready(function () {
   });
 });
 
+
 // WORK IN PROGRESS BELOW
 
 $("document").ready(function () {
