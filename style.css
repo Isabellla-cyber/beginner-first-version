@@ -211,3 +211,19 @@ table th {
   text-align:;
   background-color:green;
   color:red;
+  padding:;	
+}
+
+
+table td{
+  border: solid #;
+  podding:
+  text-align:
+  
+}
+
+table tr:nth-child(odd) td{
+  background-color:blue;
+}
+
+	
