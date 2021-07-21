@@ -10,7 +10,7 @@ div{
   backgroung-image:
     
     url(
-"https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="500">);
+"https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">);
   backgroung repeat:no-repeat;
   background-color:orange;
 }
@@ -205,3 +205,9 @@ body {top: 0px!important;}
 }
 
 
+
+
+table th {
+  text-align:;
+  background-color:green;
+  color:red;
