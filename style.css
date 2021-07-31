@@ -12,7 +12,7 @@ div{
     url(
 "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">);
   backgroung repeat:no-repeat;
-  background-color:orange;
+  background-color:yellow;
 }
 body{
   margin:;
@@ -107,7 +107,7 @@ $white: #fff;
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background:#212121;
+  background:#;
   background-image: url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
   background-size: cover;
   padding: 0 16px;
@@ -210,7 +210,7 @@ body {top: 0px!important;}
 table th {
   text-align:;
   background-color:green;
-  color:red;
+  color:brown;
   padding:;	
 }
 
