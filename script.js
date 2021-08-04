@@ -84,7 +84,7 @@ $("document").ready(function () {
 
 
 function sendEmailDefault() {
-  var email = "mariad379.md@gmail.com";
+  var email = "example@example.com";
   var subject = "Test Email";
   var msgBody = "Thank you for contacting us, we will get back to you soon!";
   window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
