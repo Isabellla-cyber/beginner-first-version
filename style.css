@@ -107,7 +107,7 @@ $white: #fff;
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background:#008B8B;
+  background:#00ffff;
   background-image: url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
   background-size: cover;
   padding: 0 16px;
