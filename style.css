@@ -25,7 +25,7 @@ body {
 {
   margin:;
   padding-top: ;
-  clear:both;
+  clear:one;
 }
 
 img {
@@ -35,11 +35,11 @@ img {
 }
 
 img:nth-of-type(1) {
-  filter: brightness(100000%);
+  filter: brightness(300%);
 }
 
 img:nth-of-type(1) {
-  filter: brightness(100000%);
+  filter: brightness(300%);
 }   
 	  
     url(
