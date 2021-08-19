@@ -8,7 +8,7 @@ margin:auto;
 } 
 div{
   backgroung-image:
-img{  filter: brightscale(2000000%);
+img{  filter: contrast(2000000%);
   }
   * {
   margin: 0
