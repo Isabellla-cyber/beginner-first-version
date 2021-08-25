@@ -260,3 +260,51 @@ table tr:nth-child(odd) td{
 }
 
 	
+:root {
+  font-size:4rem;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  hight:100%;
+}
+body{
+  display:grid; 
+  justify-items:center;
+ align-items:center;
+  background-color:#1E1F;
+}
+button{
+  border: 0.2rem solid #444857;
+  boder-radius: 0.25rem;
+  height:2.75rem;
+  width:3.5rem;
+  lign-height:2.5rem;
+  font-size:1.2rem;
+  color:#ADA;
+  background-color:red; 
+  transition: transform 50ms;
+}
+
+button:Hover{
+  background-color:#5A5F73;
+}
+button:active{
+  transform:translateY(0.1rem);
+}
+
+.small{
+  font-size: 1.4rem;
+  color:#F19994;
+}
+.medium{
+  font-size: 1.6rem;
+  color:#FF8484;
+}
+.large{ 
+  font-size: 1.8rem;
+  color:#FF3C41;
+}
