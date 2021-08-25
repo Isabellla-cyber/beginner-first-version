@@ -273,16 +273,16 @@ html,body{
 }
 body{
   display:grid; 
-  justify-items:center;
- align-items:center;
+  justify-items:right;
+ align-items:right;
   background-color:#1E1F;
 }
 button{
-  border: 0.2rem solid #444857;
+  border: 0.1rem solid #444857;
   boder-radius: 0.25rem;
-  height:2.75rem;
-  width:3.5rem;
-  lign-height:2.5rem;
+  height:1.75rem;
+  width:1.0rem;
+  lign-height:1.5rem;
   font-size:1.2rem;
   color:#ADA;
   background-color:red; 
