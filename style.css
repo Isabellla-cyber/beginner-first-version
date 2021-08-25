@@ -260,3 +260,29 @@ table tr:nth-child(odd) td{
 }
 
 	
+root{
+	font-size:2rem;
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html,body{
+	hight:100;
+}
+body{
+	display:grid;
+	justify-items:center:
+	
+
+
+
+
+
+
+
+
+
+
+
