@@ -311,7 +311,19 @@ button:hover{
 	background-color:#5A5F73;
 }
 button:active{
-	transform:translate{0.1rem};
+	transform:translateY(0.1rem);
+}
+.small{
+	font-size: 1.4rem;
+	color#F19994'
+}
+.medium{
+	font-size:1.6rem;
+	color:#ff8484;
+}
+.large{
+	font-size: 1.8rem;
+	color#:ff3c41;
 }
 
 
