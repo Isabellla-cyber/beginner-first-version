@@ -273,8 +273,9 @@ html,body{
 }
 body{
 	display:grid;
-	justify-items:center:
-	
+	justify-items:center;
+	align-items:center;
+	background-color:#1E1F;
 
 
 
