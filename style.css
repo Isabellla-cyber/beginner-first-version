@@ -281,7 +281,7 @@ button{
 	border: 0.2rem solid #444857;
 	boder-radius:0.25rem;
 	height:2.75rem;
-	width:3.5rem;
+	width:1.5rem;
 	lign-height:2.5rem;
 	font-size:1.2rem;
 	color:#ADA;
@@ -291,7 +291,7 @@ button{
 	border: 0.2rem solid #444857;
 	boder-radiud: 0.25rem;
 	height:2.75rem;
-	width:3.5rem;
+	width:1.5rem;
 	lign-height:2.5rem;
 	font-size:1.2rem;
 	color:#ADA;
@@ -301,13 +301,18 @@ button{
 	border: 0.2rem solid #444857;
 	boder-radius: 0.25rem;
 	height:2.75rem;
-	width:3.5rem;
+	width:1.5rem;
 	lign-height:2.5rem;
 	color:#ADA;
 	background-color:red;
 	transition:transform 50ms;
 }
-
+button:hover{
+	background-color:#5A5F73;
+}
+button:active{
+	transform:translate{0.1rem};
+}
 
 
 
