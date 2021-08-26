@@ -89,3 +89,15 @@ function sendEmailDefault() {
   var msgBody = "Thank you for contacting us, we will get back to you shortly!";
   window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
 }
+
+let btn = document.querySelector('button');
+let classObj = { 
+ori: 'small',
+small:'medium',
+  medium:'large',
+  large:'ori'
+}
+
+btn.addEventListener('click', ()=>{ 
+btn.classList = classObj[btn.classList[0]];
+});                
