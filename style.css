@@ -261,7 +261,7 @@ table tr:nth-child(odd) td{
 
 	
 root{
-	font-size:4rem;
+	font-size:1rem;
 }
 *{
 margin:0;
@@ -275,33 +275,33 @@ body{
 	display:grid;
 	justify-items:center;
 	align-items:center;
-	background-color:#1E1F;
+	background-color:#1E1F26;
 }
 button{
 	border: 0.2rem solid #444857;
 	boder-radius:0.25rem;
 	height:2.75rem;
-	width:1.5rem;
+	width:3.5rem;
 	lign-height:2.5rem;
 	font-size:1.2rem;
 	color:#ADA;
-	background-color:#1E1F;
+	background-color:#1E1F26;
 }
 button{
 	border: 0.2rem solid #444857;
 	boder-radiud: 0.25rem;
 	height:2.75rem;
-	width:1.5rem;
+	width:3.5rem;
 	lign-height:2.5rem;
 	font-size:1.2rem;
 	color:#ADA;
-	background-color:#1e1f;
+	background-color:#1e1f26;
 }
 button{
 	border: 0.2rem solid #444857;
 	boder-radius: 0.25rem;
 	height:2.75rem;
-	width:1.5rem;
+	width:3.5rem;
 	lign-height:2.5rem;
 	color:#ADA;
 	background-color:red;
