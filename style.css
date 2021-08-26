@@ -273,8 +273,8 @@ html,body{
 }
 body{
 	display:grid;
-	justify-items:center;
-	align-items:center;
+	justify-items:right;
+	align-items:right;
 	background-color:#1E1F26;
 }
 button{
