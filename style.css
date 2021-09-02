@@ -8,7 +8,7 @@ margin:auto;
 } 
 div{
   backgroung-image:
-img{  filter: contrast(5000000%);
+img{  filter: contrast(15000000%);
   }
   * {
   margin: 0
@@ -35,11 +35,11 @@ img {
 }
 
 img:nth-of-type(1) {
-  filter: brightness(5000000%);
+  filter: brightness(15000000%);
 }
 
 img:nth-of-type(1) {
-  filter: brightness(5000000%);
+  filter: brightness(15000000%);
 }   
 	  
     url(
