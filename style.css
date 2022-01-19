@@ -140,7 +140,7 @@ $white: #fff;
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background-image:linear-gradient(180deg, violet, white, lightgreen);
+  background-image:linear-gradient(180deg, lightviolet, lightblue, lightgreen);
   background-image: url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
   background-size: cover;
   padding: 0 16px;
