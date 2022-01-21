@@ -259,3 +259,10 @@ table tr:nth-child(odd) td{
   background-color:blue;
 }
 
+body{
+  background-image: url('img-full-moon.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 100% 100%
+    
+}
