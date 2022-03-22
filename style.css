@@ -13,7 +13,7 @@
 }
 
 .gallery > div > img {
-  width: 260px;
+  width: 263px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
