@@ -50,7 +50,7 @@ margin:auto;
 } 
 div{
   backgroung-image:
-img{  filter: contrast(1590000000%);
+img{  filter: contrast(500%);
   }
   * {
   margin: 0
@@ -77,11 +77,11 @@ img {
 }
 
 img:nth-of-type(1) {
-  filter: brightness(2000000%);
+  filter: brightness(500%);
 }
 
 img:nth-of-type(1) {
-  filter: brightness(2000000%);
+  filter: brightness(500%);
 }   
 	  
     url("https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">);
