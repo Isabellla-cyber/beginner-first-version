@@ -1,4 +1,4 @@
-@import "compass/css3";
+@import "compass/css3"
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans')
 
@@ -9,7 +9,7 @@
 }
 
 body {
-  font: 14px/1 'Open Sans', sans-serif;
+  font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
 
