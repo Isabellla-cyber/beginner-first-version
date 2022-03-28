@@ -1,4 +1,4 @@
-@import "compass/css3"
+@import "compass/css3";
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans')
 
@@ -31,7 +31,7 @@ body {
 
 .gallery > div > img {
   width: 202px;
-  height:260px;	
+  height:250px;	
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
