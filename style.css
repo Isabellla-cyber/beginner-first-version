@@ -31,7 +31,7 @@ body {
 
 .gallery > div > img {
   width: 202px;
-  height:230px;	
+  height:250px;	
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
