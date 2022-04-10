@@ -30,7 +30,7 @@ body {
 }
 
 .gallery > div > img {
-  width: 268px;
+  width: 266px;
   height:206px;	
   transition: .1s transform;
   transform: translateZ(0); /* hack */
