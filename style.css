@@ -1,206 +1,130 @@
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font: 14px/1 'Open Sans', sans-serif
-  color: #555;
-  background: #e5e5e;
-
+html {
+  font-size: 10px;
 }
 
-.gallery {
-  width: 874px;
-  margin: 0 auto;
-  padding: 5px;
-  background: #800080;
-  box-shadow: 0 1px 1px rgba(0,0,0,.1);
-}
-
-.gallery > div {
-  position: relative;
-  float: left;
-  padding: 5px;
-}
-
-.gallery > div > img {
-  width:268px;
-  heigth:206px;
-   transition: .1s transform;
-  transform: translateZ(0); /* hack */
-}
-
-.gallery > div:hover {
-  z-index: 1;
-}
-.gallery > div:hover > img {
-  transform: scale(1.8,1.8);
-  transition: .3s transform;
-}
-.cf:before, .cf:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.cf:after {
-  clear: both;
-}
-h1 { margin: 40px 0;
-  font-size: 24px;
-  text-align: center;
-}
-
-
-body { container: system-ui;
-background-color:orange; 
-color:blue;
-text-align:center;
-height:800px;
-width:900px;
-margin:auto;
-} 
-div{
-  img{  filter: contrast(1590000000%);
-  }
-  * {
-  margin: 0;
-  padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-  text-align:
-  margin:
-  font-family: 'roboto';
-}
-
-{
-  margin:;
-  padding-top: ;
-  clear:both;
-}
-
-img {
-  max-width:;
-  margin: ;
-  padding:;
-}
-
-img:nth-of-type(1) {
-  filter: brightness(2000000%);
-}
-
-img:nth-of-type(1) {
-  filter: brightness(2000000%);
-}
-
-    url(
-"https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">)
-  backgroung repeat:no-repeat;
-  background-color:orange;
-  align:;
-}
 body{
-  margin:;
-  padding:;
-  color:#;
-  font-family:Arial Narrow;
+  background: #000;
 }
 
-$grey: #ccc;
-$muted-grey: #999;
-$heart: #ff4f8f;
-$white: #fff;
-
-.like-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: $grey;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: 0 auto;
-    text-decoration: none;
-    overflow: hidden;
+.slideshow {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-.like-button {
-    .like-overlay {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: $heart;
-        transform: scale(0);
-        transition: all .4s;
-        z-index: 0;
-    }
-}
-.like-button { 
-  {       
-     &.is-liked {
-          display: none;
-          color: $red;
-          position: relative;
-          z-index: 1;
-        }
-    }
-}
-//Defining the animation
-@-webkit-keyframes bouncy {
-    from, to { -webkit-transform: scale(1, 1); }
-    25% { -webkit-transform: scale(0.9, 1.1); }
-    50% { -webkit-transform: scale(1.1, 0.9); }
-    75% { -webkit-transform: scale(0.95, 1.05); }
-}
-@keyframes bouncy {
-    from, to { transform: scale(1, 1); }
-    25% { transform: scale(0.9, 1.1); }
-    50% { transform: scale(1.1, 0.9); }
-    75% { transform: scale(0.95, 1.05); }
-}
-
-//Animation Settings
-.bouncy {
-    -webkit-animation: bouncy 0.6s;
-    animation: bouncy 0.6s;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-.like-button {
-    &.is-active {
-        .like-overlay {
-            transform: scale(1);
-        }
-       
-            }
-            &.is-liked {
-                display: block;
-            }
-        }
-    }
+.slideshow-item {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  opacity: 0;
+  animation: cycleImages 31s infinite;
 }
 
 
+
+.slideshow-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: zoom 31s infinite;
+}
+
+
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+  animation-delay: 0s;
+}
+
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+  animation-delay: 10s;
+}
+
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+  animation-delay: 20s;
+}
+.slideshow-item-text {
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,.8);
+  color: #fff;
+  padding: 10rem 5rem;
+}
+
+.slideshow-item-text h5 {
+  font-size: 5rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 2.5rem;
+}
+
+.slideshow-item-text p {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+@keyframes cycleImages {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/*  Responsive */
+
+@media screen and (max-width: 1000px) {
+  .slideshow-item-text {
+  max-width: 70%;
+  paddin: 5rem 1rem;
+ }
+  .slideshow-item-text h5 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slideshow-item-text {
+  max-width: 100%;
+  paddin: 2rem;
+  top: initial;
+  bottom: 0;
+  transform: initial;
+ }
+  
+  .slideshow-item-text h5 {
+    font-size: 4rem;
+  }
+  .slideshow-item-text p {
+    font-size: 1.4rem;
+  }
+}
 
 * {box-sizing: border-box;}
 html, body {height:100%;}
-body {
+body { 
   background:#212121;
-  background-image:linear-gradient(180deg,lightgreen,skyblue,purple)
   background-image: 
     url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&outo=format&fit=crop&w=2250&q=80"
   background-size: cover;
@@ -297,148 +221,3 @@ body {top: 0px!important;}
 		}	
 	}
 }
-
-
-body {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  font-family: 'Anton', sans-serif;
-  justify-content: center;
-  align-items: center;
-}
-
-$shooting-time: 3000ms;
-
-.night {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform: rotateZ(45deg);
-  // animation: sky 200000ms linear infinite;
-}
-
-.shooting_star {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  
-// width: 100px;
-  height: 2px;
-  background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
-  border-radius: 999px;
-  filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
-  animation:
-    tail $shooting-time ease-in-out infinite,
-    shooting $shooting-time ease-in-out infinite;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: calc(50% - 1px);
-    right: 0;
-    // width: 30px;
-    height: 2px;
-    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
-    transform: translateX(50%) rotateZ(45deg);
-    border-radius: 100%;
-    animation: shining $shooting-time ease-in-out infinite;
-  }
- 
-&::after {
-    // CodePen Error
-    // @extend .shooting_star::before;
-    
-    content: '';
-    position: absolute;
-    top: calc(50% - 1px);
-    right: 0;
-    // width: 30px;
-    height: 2px;
-    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
-    transform: translateX(50%) rotateZ(45deg);
-    border-radius: 100%;
-    animation: shining $shooting-time ease-in-out infinite;
-    transform: translateX(50%) rotateZ(-45deg);
-  }
-  @for $i from 1 through 20 {
-    &:nth-child(#{$i}) {
-      $delay: random(9999) + 0ms;
-      top: calc(50% - #{random(400) - 200px});
-      left: calc(50% - #{random(300) + 0px});
-      animation-delay: $delay;
-      // opacity: random(50) / 100 + 0.5;
-      
-      &::before,
-      &::after {
-        animation-delay: $delay;
-      }
-    }
-  }
-}
-     &::before,
-      &::after {
-        animation-delay: $delay;
-      }
-    }
-  }
-}
-
-@keyframes tail {
-  0% {
-    width: 0;
-  }
-  
-  30% {
-    width: 100px;
-  }
-  
-  100% {
-    width: 0;
-  }
-}
-
-@keyframes shining {
-  0% {
-    width: 0;
-    50% {
-    width: 30px;
-  }
-  
-  100% {
-    width: 0;
-  }
-}
-
-@keyframes shooting {
-  0% {
-    transform: translateX(0);
-  }
-  
-  100% {
-    transform: translateX(300px);
-  }
-}
-
-@keyframes sky {
-  0% {
-    transform: rotate(45deg);
-  }
-  
-  100% {
-    transform: rotate(45 + 360deg);
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
