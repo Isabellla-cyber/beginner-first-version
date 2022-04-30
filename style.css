@@ -24,7 +24,7 @@ body{
   height: inherit;
   position: absolute;
   opacity: 0;
-  animation: cycleImages s infinite;
+  animation: cycleImages 31s infinite;
 }
 
 
