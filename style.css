@@ -26,6 +26,16 @@ body{
   opacity: 0;
   animation: cycleImages 31s infinite;
 }
+.slideshow-item:nth-child(1){
+  animation-delay: 0s;
+}
+.slideshow-item:nth-child(2){
+  animation-delay: 10s;
+}
+.slideshow-item:nth-child(3){
+  animation-delay: 20s;
+}
+
 
 .slideshow-item img {
   width: 100%;
@@ -33,6 +43,7 @@ body{
   object-fit: cover;
   animation: zoom 31s infinite;
 }
+
 
 .slideshow-item:nth-child(1),
 .slideshow-item:nth-child(1) img {
@@ -48,6 +59,7 @@ body{
 .slideshow-item:nth-child(3) img{
   animation-delay: 20s;
 }
+
 .slideshow-item-text {
   max-width: 50%;
   position: absolute;
@@ -111,7 +123,7 @@ body{
  }
   
   .slideshow-item-text h5 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .slideshow-item-text p {
     font-size: 1.4rem;
