@@ -1,3 +1,9 @@
+$(document).ready(function () {
+  $(".like-button").click(function () {
+    $(this).toggleClass("is-active");
+  });
+});
+
 // WORK IN PROGRESS BELOW
 
 $("document").ready(function () {
@@ -74,6 +80,14 @@ $("document").ready(function () {
     });
   });
 });
+
+function sendEmailDefault() {
+  var email = "example@example.com";
+  var subject = "Test Email";
+  var msgBody = "Thank you for contacting us, we will get back to you shortly!";
+  window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
+}
+
 
 
 
