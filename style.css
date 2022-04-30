@@ -1,207 +1,132 @@
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font: 14px/1 'Open Sans', sans-serif
-  color: #555;
-  background: #e5e5e;
-
+html {
+  font-size: 10px;
 }
 
-.gallery {
-  width: 874px;
-  margin: 0 auto;
-  padding: 5px;
-  background: #800080;
-  box-shadow: 0 1px 1px rgba(0,0,0,.1);
-}
-
-.gallery > div {
-  position: relative;
-  float: left;
-  padding: 5px;
-}
-
-.gallery > div > img {
-  width: 265px;
-  height:206px;	
-  transition: .1s transform;
-  transform: translateZ(0); /* hack */
-}
-
-.gallery > div:hover {
-  z-index: 1;
-}
-.gallery > div:hover > img {
-  transform: scale(1.8,1.8);
-  transition: .3s transform;
-}
-.cf:before, .cf:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.cf:after {
-  clear: both;
-}
-h1 { margin: 40px 0;
-  font-size: 24px;
-  text-align: center;
-}
-
-
-
-body { container: system-ui;
-background-color:yellow; 
-color:blue;
-  text-align: center;
-height:800px;
-width:900px;
-margin:auto;
-} 
-div{
-  backgroung-image:
-img{  filter: contrast(1590000000%);
-  }
-  * {
-  margin: 0
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  text-align:
-  margin:
-  font-family: 'Roboto';
-}
-
-{
-  margin:;
-  padding-top: ;
-  clear:one;
-}
-
-img {
-  max-width:;
-  margin: ;
-  padding:;
-}
-
-img:nth-of-type(1) {
-  filter: brightness(2000000%);
-}
-
-img:nth-of-type(1) {
-  filter: brightness(2000000%);
-}   
-	  
-    url("https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">);
-  backgroung repeat:no-repeat;
-  background-color:orange;
-}
 body{
-  margin:;
-  padding:;
-  color:#;
-  font-family:Arial Narrow;
+  background: #000;
 }
 
-$grey: #ccc;
-$muted-grey: #999;
-$heart: #ff4f8f;
-$white: #fff;
-
-.like-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: $grey;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin: 0 auto;
-    text-decoration: none;
-    overflow: hidden;
+.slideshow {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-.like-button {
-    .like-overlay {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: $heart;
-        transform: scale(0);
-        transition: all .4s;
-        z-index: 0;
-    }
-}
-.like-button { 
-  {       
-     &.is-liked {
-          display: none;
-          color: $red;
-          position: relative;
-          z-index: 1;
-        }
-    }
-}
-//Defining the animation
-@-webkit-keyframes bouncy {
-    from, to { -webkit-transform: scale(1, 1); }
-    25% { -webkit-transform: scale(0.9, 1.1); }
-    50% { -webkit-transform: scale(1.1, 0.9); }
-    75% { -webkit-transform: scale(0.95, 1.05); }
-}
-@keyframes bouncy {
-    from, to { transform: scale(1, 1); }
-    25% { transform: scale(0.9, 1.1); }
-    50% { transform: scale(1.1, 0.9); }
-    75% { transform: scale(0.95, 1.05); }
-}
-
-//Animation Settings
-.bouncy {
-    -webkit-animation: bouncy 0.6s;
-    animation: bouncy 0.6s;
-    -webkit-animation-duration: 0.6s;
-    animation-duration: 0.6s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-.like-button {
-    &.is-active {
-        .like-overlay {
-            transform: scale(1);
-        }
-       
-            }
-            &.is-liked {
-                display: block;
-            }
-        }
-    }
+.slideshow-item {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  opacity: 0;
+  animation: cycleImages 31s infinite;
 }
 
 
+
+.slideshow-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: zoom 31s infinite;
+}
+
+
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+  animation-delay: 0s;
+}
+
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+  animation-delay: 10s;
+}
+
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+  animation-delay: 20s;
+}
+.slideshow-item-text {
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,.8);
+  color: #fff;
+  padding: 10rem 5rem;
+}
+
+.slideshow-item-text h5 {
+  font-size: 5rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 2.5rem;
+}
+
+.slideshow-item-text p {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+@keyframes cycleImages {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/*  Responsive */
+
+@media screen and (max-width: 1000px) {
+  .slideshow-item-text {
+  max-width: 70%;
+  paddin: 5rem 1rem;
+ }
+  .slideshow-item-text h5 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slideshow-item-text {
+  max-width: 100%;
+  paddin: 2rem;
+  top: initial;
+  bottom: 0;
+  transform: initial;
+ }
+  
+  .slideshow-item-text h5 {
+    font-size: 4rem;
+  }
+  .slideshow-item-text p {
+    font-size: 1.4rem;
+  }
+}
 
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background-color:#212121;
-	image:linear-gradient(180deg, purple,white,violet,blue); 
-  background-image: url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
+  background:#212121;
+  background-image: 
+    url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&outo=format&fit=crop&w=2250&q=80"
   background-size: cover;
   padding: 0 16px;
 	// top:0!important; // Prevent Google Topbar from pushing down body.
@@ -300,29 +225,4 @@ body {top: 0px!important;}
 
 
 
-table th {
-  text-align:;
-  background-color:green;
-  color:brown;
-  padding:;	
-}
 
-
-table td{
-  border: solid #;
-  podding:
-  text-align:
-  
-}
-
-table tr:nth-child(odd) td{
-  background-color:blue;
-}
-
-body{
-  background-image: url('img-full-moon.jpg');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: 100% 100%
-    
-}
