@@ -37,19 +37,19 @@ body{
 }
 
 
-.slideshow-item:nth-child(1)
+.slideshow-item:nth-child(1),
 .slideshow-item:nth-child(1) img {
   animation-delay: 0s;
 }
 
-.slideshow-item:nth-child(2)
+.slideshow-item:nth-child(2),
 .slideshow-item:nth-child(2) img{
-  animation-delay: s;
+  animation-delay: s10;
 }
 
-.slideshow-item:nth-child(3)
+.slideshow-item:nth-child(3),
 .slideshow-item:nth-child(3) img{
-  animation-delay: s;
+  animation-delay: s20;
 }
 .slideshow-item-text {
   max-width: 50%;
