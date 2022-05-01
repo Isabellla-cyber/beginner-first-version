@@ -1,4 +1,4 @@
- {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,8 +26,6 @@ body{
   opacity: 0;
   animation: cycleImages 31s infinite;
 }
-
-
 
 .slideshow-item img {
   width: 100%;
@@ -221,11 +219,6 @@ body {top: 0px!important;}
 		}	
 	}
 }
-
-
-
-
-
 
 
 
