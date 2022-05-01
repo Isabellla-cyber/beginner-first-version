@@ -131,6 +131,109 @@ body{
 }
 
 
+* {box-sizing: border-box;}
+html, body {height:100%;}
+body { 
+  background:#212121;
+  background-image: 
+    url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&outo=format&fit=crop&w=2250&q=80"
+  background-size: cover;
+  padding: 0 16px;
+	// top:0!important; // Prevent Google Topbar from pushing down body.
+  h1 {color:#fff; margin: 1em 0 0.5em 0; letter-spacing: -1px;}
+	h2 {color:#fff; margin: 0 0 1em 0; font-weight:100;font-size: 1.8em; letter-spacing: -1px;}
+  p {color:#fff;}
+  a {color:#fff;}
+}
+// .goog-te-banner-frame {display:none;} // Don't show Google Topbar
+// #goog-gt-tt {display:none!important;visibility:hidden!important;}
+
+#google_translate_element {
+  position: absolute;
+  bottom: calc(53px + 16px);
+  right: 16px!important;
+  // z-index: 99999;
+}
+.goog-te-gadget {
+  font-family: Roboto, 'Open Sans', sans-serif!important;
+  text-transform: uppercase;
+}
+.goog-te-gadget-simple  {
+  background-color: rgba(255,255,255,0.20)!important;
+  border: 1px solid rgba(255,255,255,0.50) !important;
+  padding: 8px!important;
+  border-radius: 4px!important;
+  font-size: 1rem!important;
+  line-height:2rem!important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+}
+.goog-te-menu2 {
+  max-width: 100%;
+}
+.goog-te-menu-value {
+  color: #fff !important;
+    &:before {
+    font-family: 'Material Icons';
+    content: "\E927";
+    margin-right: 16px;
+    font-size: 2rem;
+    vertical-align: -10px;
+    // width:32px!important;
+  } 
+}
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: 'Material Icons';
+  &:after {
+    font-family: 'Material Icons';
+    content: "\E5C5";
+    font-size: 1.5rem;
+    vertical-align: -6px;
+  }  
+}
+
+.goog-te-gadget-icon {
+    background-image: url(https://placehold.it/32)!important;
+    background-position: 0px 0px;
+    height: 32px!important;
+    width: 32px!important;
+    margin-right: 8px!important;
+    //     OR
+    display: none;
+}
+
+// ============ HIDE TOP BAR ============ 
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}
+
+/* ================================== *\
+    Mediaqueries
+\* ================================== */
+@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		goog-te-gadget {
+			width:100%!important;
+		}
+		.skiptranslate {
+			width:100%!important;			
+		}
+		.goog-te-gadget-simple {
+			width: calc(100% - 32px)!important;
+			text-align: center;
+		}	
+	}
+}
+
+
+
 
 
 
