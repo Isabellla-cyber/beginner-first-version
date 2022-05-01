@@ -43,7 +43,20 @@ body{
   object-fit: cover;
   animation: zoom 31s infinite;
 }
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+  animation-delay: ;
+}
 
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+  animation-delay: ;
+}
+
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+  animation-delay: ;
+}
 
 .slideshow-item-text {
   max-width: 50%;
