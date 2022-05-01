@@ -45,21 +45,6 @@ body{
 }
 
 
-.slideshow-item:nth-child(1),
-.slideshow-item:nth-child(1) img {
-  animation-delay: 0s;
-}
-
-.slideshow-item:nth-child(2),
-.slideshow-item:nth-child(2) img{
-  animation-delay: 10s;
-}
-
-.slideshow-item:nth-child(3),
-.slideshow-item:nth-child(3) img{
-  animation-delay: 20s;
-}
-
 .slideshow-item-text {
   max-width: 50%;
   position: absolute;
