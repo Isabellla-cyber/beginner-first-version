@@ -1,4 +1,4 @@
- {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -104,7 +104,7 @@ body{
 @media screen and (max-width: 1000px) {
   .slideshow-item-text {
   max-width: 70%;
-  paddin: 5rem 1rem;
+  padding: 5rem 1rem;
  }
   .slideshow-item-text h5 {
     font-size: 4rem;
@@ -114,14 +114,14 @@ body{
 @media screen and (max-width: 767px) {
   .slideshow-item-text {
   max-width: 100%;
-  paddin: 2rem;
+  padding: 2rem;
   top: initial;
   bottom: 0;
   transform: initial;
  }
   
   .slideshow-item-text h5 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .slideshow-item-text p {
     font-size: 1.4rem;
