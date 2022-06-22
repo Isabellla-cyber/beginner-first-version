@@ -27,7 +27,7 @@ body{
   animation: cycleImages 31s infinite;
 }
 .slideshow-item:nth-child(1){
-  animation-delay: 01s;
+  animation-delay: 0s;
 }
 .slideshow-item:nth-child(2){
   animation-delay: 10s;
@@ -48,7 +48,7 @@ body{
 }
 .slideshow-item:nth-child(1),
 .slideshow-item:nth-child(1) img {
-  animation-delay: 01s;
+  animation-delay: 0s;
 }
 
 .slideshow-item:nth-child(2),
