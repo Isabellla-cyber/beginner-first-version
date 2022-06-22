@@ -35,9 +35,6 @@ body{
 .slideshow-item:nth-child(3){
   animation-delay: 20s;
 }
-.slideshow-item:nth-child(4){
-  animation-delay: 25s;
-}
 
 
 .slideshow-item img {
@@ -60,9 +57,6 @@ body{
 .slideshow-item:nth-child(3) img{
   animation-delay: 20s;
 }
-.slideshow-item:nth-child(4),
-.slideshow-item:nth-child(4) img{
-  animation-delay: 25s;
 
 
 .slideshow-item-text {
