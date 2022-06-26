@@ -33,10 +33,7 @@ body{
   animation-delay: 10s;
 }
 .slideshow-item:nth-child(3){
-  animation-delay: 19s;
-}
-.slideshow-item:nth-child(4){
-  animation-delay: 23s;
+  animation-delay: 20s;
 }
 
 
@@ -58,12 +55,8 @@ body{
 
 .slideshow-item:nth-child(3),
 .slideshow-item:nth-child(3) img{
-  animation-delay: 19s;
-}
-.slideshow-item:nth-child(3),
-.slideshow-item:nth-child(3) img{
- animation-delay: 23s;
-}  
+  animation-delay: 20s;
+} 
 
 
 .slideshow-item-text {
