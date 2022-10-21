@@ -112,12 +112,13 @@ body{
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .slideshow-item-text {
-  max-width: 100%;
+  max-width: 60%;
   padding: 2rem;
   top: initial;
   bottom: 0;
+  height: auto;
   transform: initial;
  }
   
