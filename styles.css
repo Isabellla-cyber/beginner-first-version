@@ -71,7 +71,7 @@ body{
 }
 
 .slideshow-item-text h5 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -79,7 +79,7 @@ body{
 }
 
 .slideshow-item-text p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -111,12 +111,6 @@ body{
     font-size: 4rem;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .slideshow-item-text {
-  max-width: 60%;
-    height: auto;
-  }
 
 @media screen and (max-width: 767px) {
   .slideshow-item-text {
