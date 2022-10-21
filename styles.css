@@ -71,7 +71,7 @@ body{
 }
 
 .slideshow-item-text h5 {
-  font-size: 3rem;
+  font-size: 3.1rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -79,7 +79,7 @@ body{
 }
 
 .slideshow-item-text p {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
