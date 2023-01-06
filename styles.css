@@ -73,7 +73,7 @@ mark {
 }
 
 div:hover{
-background-color:#feb281;f0c9b3;fff0df;f9eac2;f0d9d0;ffeccc;ffe2b2;ffebcb;
+background-color:#feb281;
 }
 
 
@@ -164,7 +164,7 @@ img:nth-of-type(1) {
     url(
 "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">)
   backgroung repeat:no-repeat;
-  background-color:#ff4500;f86f15;ff4500;f86f15;fd7f20;fff4bd; #b6e5d8;
+  background-color:#ff4500;
   align:;
 }
     
