@@ -76,6 +76,46 @@ div:hover{
 background-color:#feb281;
 }
 
+img{
+  border-radius: 50%;
+}
+img{
+  -widkit-filter:grayscale(100%); /* safari 6.0 - 9,0 */
+  filter: grayscal(100%);
+}
+
+img{
+  border: 5px solid #555;
+}
+
+img{
+  opacity: 0.5px
+}
+
+
+img:hover {
+  opacity: 0.5;
+}
+
+margin: 0;
+padding: 0;
+}
+body
+{
+  overflow: hidden;
+}
+#bg
+{ 
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%vh;
+mix-blend-mode: hue;
+}
+
+
+
+
 body { container: system-ui;
 background-color:orange; 
 color:blue;
