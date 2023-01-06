@@ -83,7 +83,7 @@ img{
   border-radius: 50%;
 }
 img{
-  -widkit-filter:grayscale(100%); /* safari 6.0 - 9,0 */
+  -widkit-filter:grayscale(100%);
   filter: grayscal(100%);
 }
 
