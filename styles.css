@@ -124,7 +124,7 @@ li{
 text-align: center; 
 }
 
-li{ 
+li,font color{ 
 font-size: 24px;
 font-family: 'roboto';	 
 }
