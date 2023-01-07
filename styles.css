@@ -121,7 +121,8 @@ table {
 } 
 
 li{ 
-text-align: center; 
+text-align: center;
+font-weight: bold;	
 }
 
 li,font-color{ 
