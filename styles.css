@@ -325,6 +325,25 @@ $white: #fff;
 }
 
 
+}
+
+.text {
+  font-size: 3.4rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 2.5rem;
+}
+
+.text p {
+  font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+
+
 
 
 
