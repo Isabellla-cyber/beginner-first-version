@@ -206,7 +206,7 @@ button{
   button-align:left;
   display:grid 
   justify-items:left;
-  align-items:center;
+  align-items:left;
   background-color:#1E1F
 }
 
