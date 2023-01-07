@@ -203,10 +203,10 @@ html,body{
   hight:100%
 }
 button{
-  button-align:left;
+  button-align:
   display:grid 
-  justify-items:left;
-  align-items:left;
+  justify-items:
+  align-items:
   background-color:#1E1F
 }
 
