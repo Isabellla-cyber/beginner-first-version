@@ -327,7 +327,7 @@ $white: #fff;
 
 }
 
-.text h1  {
+.text-h1  {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -335,7 +335,7 @@ $white: #fff;
   margin-bottom: 2.5rem;
 }
 
-.text p h2 {
+.text-p h2 {
   font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -363,10 +363,10 @@ $white: #fff;
   transform: initial;
  }
   
-  .text{
+  .text-h1 {
     font-size: 4rem;
   }
-  .text p {
+  .text-p h2  {
     font-size: 1.4rem;
   }
 }
