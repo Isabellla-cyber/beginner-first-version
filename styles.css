@@ -342,6 +342,39 @@ $white: #fff;
   font-weight: 300;
 }
 
+/*  Responsive */
+
+@media screen and (max-width: 1000px) {
+  .text {
+  max-width: 70%;
+  padding: 5rem 1rem;
+ }
+  .slideshow-item-text h5 {
+    font-size: 4rem;   
+  }
+}
+  
+@media screen and (max-width: 767px) {
+  .text {
+  max-width: 100%;
+  padding: 2rem;
+  top: initial;
+  bottom: 0;
+  transform: initial;
+ }
+  
+  .text{
+    font-size: 4rem;
+  }
+  .text p {
+    font-size: 1.4rem;
+  }
+}
+
+
+
+
+
 
 
 
