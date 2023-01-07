@@ -260,7 +260,10 @@ $white: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    button,margin-right{
+    margin-right: 20px;
+ }
+    margin: 0 auto
     text-decoration: none;
     overflow: hidden;
 }
