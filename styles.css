@@ -203,6 +203,7 @@ html,body{
   hight:100%
 }
 button{
+  button-align:center;
   display:grid 
   justify-items:center;
   align-items:center;
