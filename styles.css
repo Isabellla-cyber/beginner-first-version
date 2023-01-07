@@ -124,9 +124,9 @@ li{
 text-align: center; 
 }
 
-li,font color{ 
+li,font-color{ 
 font-size: 24px;
-font-family: 'Open Sans', sans-serif;	 
+font-family: 'roboto';	 
 }
 
 
@@ -203,9 +203,9 @@ html,body{
   hight:100%
 }
 button{
-  button-align:center;
+  button-align:left;
   display:grid 
-  justify-items:center;
+  justify-items:left;
   align-items:center;
   background-color:#1E1F
 }
