@@ -349,7 +349,7 @@ $white: #fff;
   max-width: 70%;
   padding: 5rem 1rem;
  }
-  .slideshow-item-text h5 {
+  .text {
     font-size: 4rem;   
   }
 }
