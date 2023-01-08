@@ -328,15 +328,15 @@ $white: #fff;
 
 }
 
-p h1{
-  font-size: 3.4rem;
+.text{
+  font-size:  3.4rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 2.5rem;
 }
 
-p h2 {
+.text {
   font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -347,17 +347,17 @@ p h2 {
 /*  Responsive */
 
 @media screen and (max-width: 1000px) {
-  p h1 {
+  .text {
   max-width: 70%;
   padding: 5rem 1rem;
  }
-  p h1 {
+  .text {
     font-size: 4rem;   
   }
 }
   
 @media screen and (max-width: 767px) {
-  p h2 {
+  .text {
   max-width: 100%;
   padding: 2rem;
   top: initial;
@@ -365,10 +365,10 @@ p h2 {
   transform: initial;
  }
   
-  p h1 {
+  .text {
     font-size: 4rem;
   }
-  p h2 {
+  .text {
     font-size: 1.4rem;
   }
 }
