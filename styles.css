@@ -338,6 +338,35 @@ $white: #fff;
   margin-bottom: 2.5rem;
 }
 
+/*  Responsive */
+
+@media screen and (max-width: 1000px) {
+  .h1 {
+  max-width: 70%;
+  padding: 5rem 1rem;
+ }
+  .h1 {
+    font-size: 4rem;   
+  }
+}
+  
+@media screen and (max-width: 767px) {
+  .h2 {
+  max-width: 100%;
+  padding: 2rem;
+  top: initial;
+  bottom: 0;
+  transform: initial;
+ }
+  
+  .h1 {
+    font-size: 4rem;
+  }
+  .h2 {
+    font-size: 1.4rem;
+  }
+}
+
 
 
 
