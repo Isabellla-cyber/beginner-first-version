@@ -328,15 +328,17 @@ $white: #fff;
 
 }
 
-.text{
-  font-size:  3.4rem;
+
+
+.h1{
+  font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 2.5rem;
 }
 
-.text {
+.h2 {
   font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -346,18 +348,18 @@ $white: #fff;
 
 /*  Responsive */
 
-@media screen and (max-width: 1000px) {
-  .text {
-  max-width: 70%;
+@media screen and (max-width: 800px) {
+  .h1 {
+  max-width: 100%;
   padding: 5rem 1rem;
  }
-  .text {
+  .h1 {
     font-size: 4rem;   
   }
 }
   
 @media screen and (max-width: 767px) {
-  .text {
+  .h2 {
   max-width: 100%;
   padding: 2rem;
   top: initial;
@@ -365,13 +367,19 @@ $white: #fff;
   transform: initial;
  }
   
-  .text {
+  .h1 {
     font-size: 4rem;
   }
-  .text {
+  .h2 {
     font-size: 1.4rem;
   }
 }
+
+
+
+
+
+
 
 
 
