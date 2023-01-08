@@ -326,11 +326,9 @@ $white: #fff;
         }
 }
 
-
-
 }
 
-.h1{
+p h1{
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -338,7 +336,7 @@ $white: #fff;
   margin-bottom: 2.5rem;
 }
 
-.h2 {
+p h2 {
   font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -349,17 +347,17 @@ $white: #fff;
 /*  Responsive */
 
 @media screen and (max-width: 1000px) {
-  .h1 {
+  p h1 {
   max-width: 70%;
   padding: 5rem 1rem;
  }
-  .h1 {
+  p h1 {
     font-size: 4rem;   
   }
 }
   
 @media screen and (max-width: 767px) {
-  .h2 {
+  p h2 {
   max-width: 100%;
   padding: 2rem;
   top: initial;
@@ -367,10 +365,10 @@ $white: #fff;
   transform: initial;
  }
   
-  .h1 {
+  p h1 {
     font-size: 4rem;
   }
-  .h2 {
+  p h2 {
     font-size: 1.4rem;
   }
 }
