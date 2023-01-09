@@ -441,21 +441,6 @@ body {top: 0px!important;}
 }
 
 
-
-
-
-
-}
-
-.item-text {
-  max-width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  background-color: rgba(0,0,0,.8);
-  color: #fff;
-  padding: 10rem 5rem;
 }
 
 .h1 {
