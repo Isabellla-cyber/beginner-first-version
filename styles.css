@@ -457,7 +457,7 @@ body {top: 0px!important;}
   font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 
@@ -477,7 +477,7 @@ body {top: 0px!important;}
 @media screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   top: initial;
   bottom: 0;
   transform: initial;
