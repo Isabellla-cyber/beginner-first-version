@@ -464,7 +464,8 @@ body {top: 0px!important;}
 @media screen and (max-width: 1000px) {
   .h1 {
   max-width: 100%;
-  padding: 5rem 1rem;
+   padding-left: 10%;
+  padding-right:10%;
  }
   .h2 {
     font-size: 4rem;   
@@ -475,7 +476,8 @@ body {top: 0px!important;}
 @media screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
-  padding: 2rem;
+  padding-left: 0;
+  padding-right:0;  
   top: initial;
   bottom: 0;
   transform: initial;
