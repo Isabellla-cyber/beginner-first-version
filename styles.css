@@ -443,6 +443,8 @@ body {top: 0px!important;}
 
 }
 
+
+
 .h1 {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
@@ -452,19 +454,20 @@ body {top: 0px!important;}
 }
 
 .h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
 }
 
 
+
 /*  Responsive */
 
 @media screen and (max-width: 1000px) {
   .h1 {
-  max-width: 30%;
-  padding: 2rem 1rem;
+  max-width: 70%;
+  padding: 5rem 1rem;
  }
   .h2 {
     font-size: 4rem;   
@@ -487,14 +490,3 @@ body {top: 0px!important;}
     font-size: 1.4rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
