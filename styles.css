@@ -444,7 +444,6 @@ body {top: 0px!important;}
 }
 
 
-
 .h1 {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
@@ -457,7 +456,7 @@ body {top: 0px!important;}
   font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 
@@ -467,24 +466,24 @@ body {top: 0px!important;}
 @media screen and (max-width: 1000px) {
   .h1 {
   max-width: 70%;
-  padding: 1rem 1rem;
+  padding: 5rem 1rem;
  }
   .h2 {
-    font-size: 2rem;   
+    font-size: 4rem;   
   }
 }
   
 @media screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
-  padding: 1rem;
+  padding: 2rem;
   top: initial;
   bottom: 0;
   transform: initial;
  }
   
   .h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .h2 {
     font-size: 1.4rem;
