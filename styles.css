@@ -442,6 +442,8 @@ body {top: 0px!important;}
 
 
 
+
+
 }
 
 .slideshow {
@@ -464,19 +466,8 @@ body {top: 0px!important;}
   object-fit: cover;
   animation: zoom 31s infinite;
 }
-.slideshow-item:nth-child(1),
-.slideshow-item:nth-child(1) img {
-  animation-delay: 0s;
-}
-.slideshow-item:nth-child(2),
-.slideshow-item:nth-child(2) img{
-  animation-delay: 10s;
-}
-.slideshow-item:nth-child(3),
-.slideshow-item:nth-child(3) img{
-  animation-delay: 20s;
-}
-.slideshow-item-text {
+
+.item-text {
   max-width: 50%;
   position: absolute;
   top: 50%;
@@ -487,7 +478,7 @@ body {top: 0px!important;}
   padding: 10rem 5rem;
 }
 
-.item-text h1 {
+.h1 {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -495,8 +486,8 @@ body {top: 0px!important;}
   margin-bottom: 2.5rem;
 }
 
-.item-text p {
-  font-size: 1.7rem;
+.h2 {
+  font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -520,17 +511,17 @@ body {top: 0px!important;}
 /*  Responsive */
 
 @media screen and (max-width: 1000px) {
-  .item-text {
+  .h1 {
   max-width: 70%;
   padding: 5rem 1rem;
  }
-  .item-text h1 {
+  .h2 {
     font-size: 4rem;   
   }
 }
   
 @media screen and (max-width: 767px) {
-  .item-text {
+  .h1 {
   max-width: 100%;
   padding: 2rem;
   top: initial;
@@ -538,13 +529,17 @@ body {top: 0px!important;}
   transform: initial;
  }
   
-  .item-text h1 {
+  .h1 {
     font-size: 4rem;
   }
-  .item-text p {
+  .h2 {
     font-size: 1.4rem;
   }
 }
+
+
+
+
 
 
 
