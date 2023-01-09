@@ -464,7 +464,7 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-/*---------media query for more than 800px--------*/
+/*---------media query for less than 800px screen size---------*/
 @media only screen and (max-width: 800px){ 
   .h1 {
   max-width: 70%;
