@@ -471,10 +471,10 @@ body {top: 0px!important;}
   }
 }
   
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 950px) {.logo_wrapper{top: 25px;}}
   .h1 {
   max-width: 100%;
-  padding: 2rem;
+  padding: 0;
   top: initial;
   bottom: 0;
   transform: initial;
