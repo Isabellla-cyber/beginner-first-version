@@ -463,7 +463,7 @@ body {top: 0px!important;}
 
 @media screen and (max-width: 1000px) {
   .h1 {
-  max-width: 70%;
+  max-width: 30%;
   padding: 2rem 1rem;
  }
   .h2 {
