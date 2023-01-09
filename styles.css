@@ -458,20 +458,6 @@ body {top: 0px!important;}
   font-weight: 300;
 }
 
-@keyframes cycleImages {
-  25% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-  }
-}
-
-@keyframes zoom {
-  100% {
-    transform: scale(1.3);
-  }
-}
 
 /*  Responsive */
 
