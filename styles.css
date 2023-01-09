@@ -1,4 +1,8 @@
-{
+@import "compass/css3"
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,17 +12,6 @@ body {
   font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
-
-
-}
-
-
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-
-
-
 }
 
 .gallery {
@@ -450,6 +443,7 @@ body {top: 0px!important;}
 
 
 
+
 .h1 {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
@@ -459,7 +453,7 @@ body {top: 0px!important;}
 }
 
 .h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -469,8 +463,7 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-/*---------media query for less than 800px screen size---------*/
-@media only screen and (max-width: 800px){ 
+@media screen and (max-width: 800px) {
   .h1 {
   max-width: 70%;
   padding: 5rem 1rem;
@@ -480,8 +473,7 @@ body {top: 0px!important;}
   }
 }
   
-/*------media query for less than 600 screen size-----*/ 
-@media only screen and (max-width: 600px){ 
+@media screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
   padding: 2rem;
