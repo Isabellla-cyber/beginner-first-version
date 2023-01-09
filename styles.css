@@ -464,7 +464,8 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-@media screen and (max-width: 1000px) {
+/*---------media query for more than 800px--------*/
+@media only screen and (max-width: 800px){ 
   .h1 {
   max-width: 70%;
   padding: 5rem 1rem;
@@ -474,7 +475,8 @@ body {top: 0px!important;}
   }
 }
   
-@media screen and (max-width: 767px) {
+/*------media query for less than 600 screen size-----*/ 
+@media only screen and (max-width: 600px){ 
   .h1 {
   max-width: 100%;
   padding: 2rem;
