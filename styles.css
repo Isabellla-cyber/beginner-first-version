@@ -475,8 +475,8 @@ body {top: 0px!important;}
   }
 }
   
-/*------media query for less than 767 screen size-----*/ 
-@media only screen and (max-width: 767px){ 
+/*------media query for less than 600 screen size-----*/ 
+@media only screen and (max-width: 600px){ 
   .h1 {
   max-width: 100%;
   padding: 2rem;
