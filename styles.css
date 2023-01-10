@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -17,8 +17,8 @@ min-height: 100vh;
 max-width: 900px;
 margin: 0 auto;
 overflow: hidden 
-padding-left: 2%;
-padding-right: 2%;
+padding-left: 1%;
+padding-right: 1%;
 box-sizing: border-box; 
 }
 
