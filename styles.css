@@ -14,7 +14,7 @@ background-color:orange;
 color:blue;
 text-align:center;
 min-height: 100vh;
-width: 900px;
+max-width: 900px;
 margin: 0 auto;
 overflow: hidden 
 padding-left: 1%;
