@@ -9,8 +9,7 @@ html {
 
 
 body 
-{ 
-container: system-ui;
+{container: system-ui;
 background-color:orange; 
 color:blue;
 text-align:center;
