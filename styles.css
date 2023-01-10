@@ -1,17 +1,38 @@
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+
+body 
+{ 
+container: system-ui;
+background-color:orange; 
+color:blue;
+text-align:center;
+height:800px;
+width:900px;
+margin:auto;
+
 }
 
 body {
   font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
+
+}
+
+
+
+@import "compass/css3"
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+
 }
 
 .gallery {
@@ -125,21 +146,7 @@ font-weight: bold;
 
 li,font-color{ 
 font-size: 24px;
-font-family: 'roboto';	 
-}
-
-
-
-
-
-
-body { container: system-ui;
-background-color:orange; 
-color:blue;
-text-align:center;
-height:800px;
-width:900px;
-margin:auto;
+font-family: 'roboto';
 } 
 div{
   img{  filter: contrast(1590000000%);
