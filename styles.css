@@ -450,20 +450,20 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .h1 {
   max-width: 70%;
-  padding: 2rem;
+  padding: 32px;
  }
   .h2 {
     font-size: 4rem;   
   }
 }
   
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .h1 {
   max-width: 100%;
-  padding: 1rem;
+  padding: 16px;
   top: initial;
   bottom: 0;
   transform: initial;
