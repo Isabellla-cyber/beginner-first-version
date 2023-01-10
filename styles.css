@@ -459,11 +459,11 @@ body {top: 0px!important;}
   padding: 5rem 1rem;
  }
   .h2 {
-    font-size: 4rem;   
+    font-size: 80px;   
   }
 }
   
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .h1 {
   max-width: 100%;
   padding: 2rem;
@@ -473,9 +473,9 @@ body {top: 0px!important;}
  }
   
   .h1 {
-    font-size: 4rem;
+    font-size: 30px;
   }
   .h2 {
-    font-size: 1.4rem;
+    font-size: 30px;
   }
 }
