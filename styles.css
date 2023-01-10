@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 14.5px;
+  font-size: 16px;
 }
 
 
@@ -63,7 +63,7 @@ body {
 }
 
 .gallery > div > img {
-  width:260px;
+  width:258px;
   heigth:206px;
    transition: .1s transform;
   transform: translateZ(0); /* hack */
