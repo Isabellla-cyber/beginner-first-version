@@ -14,7 +14,7 @@ background-color:orange;
 color:blue;
 text-align:center;
 min-height: 100vh;
-max-width: 900px;
+width: 900px;
 margin: 0 auto;
 overflow: hidden 
 padding-left: 1%;
@@ -26,7 +26,7 @@ body {
   font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
-  min-height: 100vh;
+  min-height: ;
   width: 100%;
 }
 
