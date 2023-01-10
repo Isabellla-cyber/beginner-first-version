@@ -453,17 +453,17 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .h1 {
   max-width: 70%;
   padding: 5rem 1rem;
  }
   .h2 {
-    font-size: 80px;   
+    font-size: 4rem;   
   }
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
   padding: 2rem;
@@ -473,9 +473,9 @@ body {top: 0px!important;}
  }
   
   .h1 {
-    font-size: 30px;
+    font-size: 4rem;
   }
   .h2 {
-    font-size: 30px;
+    font-size: 1.4rem;
   }
 }
