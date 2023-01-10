@@ -26,7 +26,7 @@ body {
   font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
-  min-height: ;
+  min-height:100vh;
   width: 100%;
 }
 
