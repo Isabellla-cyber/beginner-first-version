@@ -72,7 +72,7 @@ mark {
 }
 
 div:hover{
-background-color:#ffe4c6;fff0df;
+background-color:#faf9f6;ffe4c6;fff0df;
 }
 
 img{
@@ -109,11 +109,8 @@ position: absolute;
 top: 0;
 width: 100%;
 height: 100%vh;
-mix-blend-mode: hue;
-}
+mix-blend-mode: hue; 
 
-table {
-  text- align: center;  
 }
 table {
   text- align: center; 
