@@ -1,17 +1,11 @@
-{
+@import "compass/css3"
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body 
-{container: system-ui;
-background-color:orange; 
-color:blue;
-text-align:center;
-height:800px;
-width:900px;
-margin:auto;
-
 }
 
 body {
@@ -21,16 +15,8 @@ body {
 
 }
 
-
-
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-
-}
-
 .gallery {
-  width: 880px;
+  width: 878px;
   margin: 0 auto;
   padding: 5px;
   background: #ffffff;
@@ -86,7 +72,7 @@ mark {
 }
 
 div:hover{
-background-color:#faf9f6;ffe4c6;fff0df;
+background-color:#ffe4c6;fff0df;
 }
 
 img{
@@ -134,14 +120,24 @@ table {
 } 
 
 li{ 
-text-align: center;
-font-weight: bold;	
+text-align: center; 
 }
 
 li,font-color{ 
 font-size: 24px;
-font-family: 'roboto';
-} 
+font-family: 'roboto';	 
+}
+
+
+body { container: system-ui;
+background-color:orange; 
+color:blue;
+text-align:center;
+height:800px;
+width:900px;
+margin:auto;
+}
+
 div{
   img{  filter: contrast(1590000000%);
   }
