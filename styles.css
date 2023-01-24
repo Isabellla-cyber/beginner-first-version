@@ -455,7 +455,7 @@ body {top: 0px!important;}
 
 /*  Responsive */
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   .h1 {
   max-width: 70%;
   padding: 5rem 1rem;
@@ -465,7 +465,7 @@ body {top: 0px!important;}
   }
 }
   
-@media only screen and (max-width:767px) {
+@media only screen and (max-width: 767px) {
   .h1 {
   max-width: 100%;
   padding: 2rem;
