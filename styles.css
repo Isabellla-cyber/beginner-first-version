@@ -1,43 +1,18 @@
-{
+@import "compass/css3"
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-html {
-  font-size: 6px;
-}
-
-
-
-body { 
-container: system-ui;
-background-color:orange; 
-color:blue;
-text-align:center;
-min-height: 100vh;
-max-width: 900px;
-margin: 0 auto;
-overflow: hidden 
-padding-left: 1%;
-padding-right: 1%;
-box-sizing: border-box; 
 }
 
 body {
   font: 14px/1 'Open Sans', sans-serif
   color: #555;
   background: #e5e5e;
-  min-height: 100vh;
-  width: 100%;
-}
 
-
-
-@import "compass/css3"
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
-	
-	
 }
 
 .gallery {
@@ -64,8 +39,8 @@ body {
 }
 
 .gallery > div > img {
-  width: 254px;
-  heigth: 206px;
+  width:265px;
+  heigth:206px;
    transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
@@ -94,8 +69,7 @@ background-color:#ffff00;
 }
 mark { 
   background-color:#edc967;e8b939;
-	
-}	
+}
 
 div:hover{
 background-color:#ffe4c6;fff0df;
@@ -152,7 +126,20 @@ text-align: center;
 li,font-color{ 
 font-size: 24px;
 font-family: 'roboto';	 
-	
+}
+
+
+
+
+
+
+body { container: system-ui;
+background-color:orange; 
+color:blue;
+text-align:center;
+height:800px;
+width:900px;
+margin:auto;
 } 
 div{
   img{  filter: contrast(1590000000%);
@@ -334,7 +321,6 @@ $white: #fff;
         }
     }
 }
-
 
 
 
