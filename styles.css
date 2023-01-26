@@ -214,10 +214,10 @@ html,body{
   hight:100%
 }
 button{
-  button-align:left;
+  button-align:center;
   display:grid 
-  justify-items:left;
-  align-items:left;
+  justify-items:center;
+  align-items:center;
   background-color:#1E1F
 }
 
@@ -225,8 +225,8 @@ button{
   border: 0.25rem solid #444857;
   boder-radius: 0.25rem;
   height:2.3rem;
-  width:2.9rem;
-  width:fit-content
+  width:2.9rem
+  width:fit-content;
   lign-height:2.5rem;
   font-size:1.1rem;
   color:#ada;
