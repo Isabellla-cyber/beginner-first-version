@@ -224,15 +224,19 @@ button{
 button{
   border: 0.25rem solid #444857;
   boder-radius: 0.25rem;
+  padding: 8px;	
   height: 2.3rem;
   width: 2.9rem
   width:fit-content;
+  block-size: fit-content;	
   lign-height: 2.5rem;
   font-size: 1.1rem;
   color:#ada;
   background-color: violet; 
   transition: transform 50ms;
 }
+
+
 
 button:Hover{
   background-color: pink;
