@@ -1,10 +1,10 @@
-{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 html {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -17,8 +17,8 @@ min-height: 100vh;
 max-width: 900px;
 margin: 0 auto;
 overflow: hidden 
-padding-left: 1%;
-padding-right: 1%;
+padding-left: %;
+padding-right: %;
 box-sizing: border-box; 
 }
 
