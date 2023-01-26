@@ -214,17 +214,17 @@ html,body{
   hight:100%
 }
 button{
-  button-align:center;
+  button-align:left;
   display:grid 
-  justify-items:center;
-  align-items:center;
+  justify-items:left;
+  align-items:left;
   background-color:#1E1F
 }
 
 button{
   border: 0.25rem solid #444857;
   boder-radius: 0.25rem;
-  padding: 5px;	
+  padding:1px;	
   height: 2.3rem;
   width: 2.9rem
   width:fit-content;
