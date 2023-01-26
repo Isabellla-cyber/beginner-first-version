@@ -214,10 +214,10 @@ html,body{
   hight:100%
 }
 button{
-  button-align:left
+  button-align:left;
   display:grid 
-  justify-items:left
-  align-items:left
+  justify-items:left;
+  align-items:left;
   background-color:#1E1F
 }
 
