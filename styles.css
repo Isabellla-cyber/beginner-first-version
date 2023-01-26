@@ -17,8 +17,8 @@ min-height: 100vh;
 max-width: 900px;
 margin: 0 auto;
 overflow: hidden 
-padding-left: 1%;
-padding-right:1%;
+padding-left:  %;
+padding-right: %;
 box-sizing: border-box; 
 }
 
@@ -214,10 +214,10 @@ html,body{
   hight:100%
 }
 button{
-  button-align:right;
+  button-align:left;
   display:grid 
-  justify-items:right;
-  align-items:center;
+  justify-items:left;
+  align-items:left;
   background-color:#1E1F
 }
 
@@ -225,7 +225,7 @@ button{
   border: 0.25rem solid #444857;
   boder-radius: 0.25rem;
   height:2.3rem;
-  width:2.9rem;
+  width:2.9rem
   width:fit-content;
   lign-height:2.5rem;
   font-size:1.1rem;
