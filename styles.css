@@ -216,8 +216,9 @@ html,body{
 button{
   button-align:left;
   display:grid 
-  justify-items:left;
+  justify-items:center;
   align-items:left;
+   text-align:center;
   background-color:#1E1F
 }
 
