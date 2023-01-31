@@ -213,11 +213,11 @@ body{
 html,body{
   hight:100%
 }
+
 button{
-  button-align:left;
   display:grid 
   justify-items:center;
-  align-items:left;
+  align-items: center;
   background-color:#1E1F
 }
 
@@ -226,9 +226,9 @@ button{
   boder-radius: 0.25rem;
   padding: 2px;	
   height: 2.3rem;
-  width: ;	
+  width: 2.9rem	
   width: fit-content;
-  display: inline-block;	
+  size: fit-content;	
   lign-height: 2.5rem;
   font-size: 1.1rem;
   color:#ada;
