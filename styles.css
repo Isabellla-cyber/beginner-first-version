@@ -218,18 +218,15 @@ button{
   display:grid 
   justify-items:center;
   align-items:left;
-   text-align:center;
   background-color:#1E1F
 }
 
 button{
   border: 0.25rem solid #444857;
   boder-radius: 0.25rem;
-  padding:2px;	
+  padding: 0px 10px;	
   height: 2.3rem;
-  width: 2.9rem
-  width:fit-content;
-  block-size: fit-content;	
+  width: fit-content;	
   lign-height: 2.5rem;
   font-size: 1.1rem;
   color:#ada;
