@@ -229,8 +229,8 @@ button{
   width: 2.9rem	
   width: fit-content;
   size: fit-content;	
-  lign-height: 12.5rem;
-  font-size: 5.1rem;
+  lign-height: 1.5rem;
+  font-size: 0.8rem;
   color:#ada;
   background-color: violet; 
   transition: transform 50ms;
