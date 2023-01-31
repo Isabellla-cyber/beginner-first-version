@@ -226,8 +226,9 @@ button{
   boder-radius: 0.25rem;
   padding: 2px;	
   height: 2.3rem;
-  width: 2.9rem;	
-  width: fit-content;	
+  width: ;	
+  width: fit-content;
+  display: inline-block;	
   lign-height: 2.5rem;
   font-size: 1.1rem;
   color:#ada;
