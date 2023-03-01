@@ -63,7 +63,7 @@ body {
 }
 
 .gallery > div > img {
-  width: 258px;
+  width: 263px;
   heigth: 206px;
    transition: .1s transform;
   transform: translateZ(0); /* hack */
@@ -97,7 +97,7 @@ mark {
 }	
 
 div:hover{
-background-color:#ffe4c6;fff0df;
+background-color:#f8f0e3;ffe4c6;fff0df;
 }
 
 img{
