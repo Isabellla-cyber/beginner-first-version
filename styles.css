@@ -134,11 +134,7 @@ position: absolute;
 top: 0;
 width: 100%;
 height: 100%vh;
-mix-blend-mode: hue;
-}
-
-table {
-  text- align: center;  
+mix-blend-mode: hue;  
 }
 table {
   text- align: center; 
