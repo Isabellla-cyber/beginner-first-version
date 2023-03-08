@@ -54,7 +54,7 @@ body {
 }
 @keyframes mymove{
   from {background-color: white;}
-  to {background-color: rose;}
+  to {background-color: skybue;}
 }
 .gallery > div {
   position: relative;
@@ -187,7 +187,7 @@ img:nth-of-type(1) {
     url(
 "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg" height="590">)
   backgroung repeat:no-repeat;
-  background-color: darkorange; #ff4500;
+  background-color:#fda172; darkorange; #ff4500;
   align:;
 }
     
