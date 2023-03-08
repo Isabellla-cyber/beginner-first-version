@@ -53,7 +53,7 @@ body {
   animation: mymove 5s infinite;
 }
 @keyframes mymove{
-  from {background-color: rose,blue;}
+  from {background-color: rose,violet;}
   to {background-color: white;}
 }
 .gallery > div {
