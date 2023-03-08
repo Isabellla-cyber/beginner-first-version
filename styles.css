@@ -54,7 +54,7 @@ body {
 }
 @keyframes mymove{
   from {background-color: white;}
-  to {background-color: skybue;}
+  to {background-color: skyblue;}
 }
 .gallery > div {
   position: relative;
