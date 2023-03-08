@@ -53,8 +53,8 @@ body {
   animation: mymove 5s infinite;
 }
 @keyframes mymove{
-  from {background-color: blue;}
-  to {background-color: violet;}
+  from {background-color: white;}
+  to {background-color: rose;}
 }
 .gallery > div {
   position: relative;
@@ -97,7 +97,7 @@ mark {
 }	
 
 div:hover{
-background-color:#f8f0e3;ffe4c6;fff0df;
+background-color: orange; #f8f0e3;ffe4c6;fff0df;
 }
 
 img{
