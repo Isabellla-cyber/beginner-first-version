@@ -143,7 +143,9 @@ table {
 li{ 
 text-align: center; 
 }
-
+img{ 
+img-align: center; 
+}
 li,font-color{ 
 font-size: 24px;
 font-family: 'roboto';	 
