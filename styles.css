@@ -554,7 +554,7 @@ img
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: auto
 }
 
 /* Caption text */
@@ -565,7 +565,7 @@ img
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align:center;
 }
 
 /* Number text (1/3 etc) */
