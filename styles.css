@@ -549,32 +549,32 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-text{
-  color: #bf40bf;
+.text{
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align:center;
 }
 
 
 
 /* Number text (1/3 etc) */
-numbertext {
-  color: #bf40bf;
+.numbertext{
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align:center;
 }
 
      
 /* Number text (1/3 etc) */
-numbertext {
+.numbertext{
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -583,7 +583,7 @@ numbertext {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot{
   height: 15px;
   width: 15px;
   margin: 0 2px;
