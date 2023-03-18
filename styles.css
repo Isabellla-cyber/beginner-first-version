@@ -549,7 +549,7 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-div.text {
+.text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -558,9 +558,15 @@ div.text {
   width: 100%;
   text-align: center;
 }
+div.Caption text{ 
+text-align: center; 
+}
+
+
+
 
 /* Number text (1/3 etc) */
-div.numbertext {
+.numbertext {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -569,10 +575,12 @@ div.numbertext {
   width: 100%;
   text-align: center;
 }
-
+div.numbertex{ 
+text-align: center; 
+}
      
 /* Number text (1/3 etc) */
-div.numbertext {
+.numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
