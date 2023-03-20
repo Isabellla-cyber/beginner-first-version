@@ -151,7 +151,10 @@ font-size: 24px;
 font-family: 'roboto';	 	
 }
 
-* {box-sizing: border-box;}
+
+
+
+{box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
