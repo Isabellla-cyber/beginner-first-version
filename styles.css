@@ -538,6 +538,8 @@ body {top: 0px!important;}
 
 
 
+
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -562,48 +564,9 @@ img {vertical-align: middle;}
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  
+    transition: background-color 0.6s ease;
 }
-h2{
- text-align: center;
-}
-h2{ 
- color: skyblue;
-}
-
-numbertext (1/3 etc){
- text-align: center;
-}
-numbertext(1/3 etc){ 
- color: skyblue;
-}
-
-Number text (1/3 etc){
- text-align: center;
-}
-Number text(1/3 etc){ 
- color: skyblue;
-}
-
-
-     
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
 
 .active {
   background-color: #717171;
@@ -623,11 +586,4 @@ Number text(1/3 etc){
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
-
-
-
-
-
-
-
-
+}
