@@ -538,6 +538,11 @@ body {top: 0px!important;}
 
 
 
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -593,3 +598,4 @@ img
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
