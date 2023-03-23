@@ -143,31 +143,37 @@ table {
 
 li{ 
 text-align: center; 
+
+}
+img{ 
+img-align: center; 
+}
+
+li,font-color{ 
+font-size: 24px;
+font-family:'roboto';	 
 }
 
 th { 
 font-size: ;
 font-family:'times new Roman'; ,sans-serif;
-font-size: 16px;
+font-size: 20px;
 }
 
-
 li {
-  font-family: cursive;
+font-family: cursive;
 font-weight: 450;
 
 } 
 
-
 td {
-  font-family: ;
-font-weight: 500;
-
-} 
+ Font-family: ;
+ font-weight: 500;
+}
 
 i td {
-  Font-family: cursive;
-  font-weight: 500;
+ Font-family: cursive;
+ font-weight: 500;
 }
 
 
