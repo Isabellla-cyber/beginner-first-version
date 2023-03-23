@@ -150,24 +150,22 @@ font-size: 21px;
 font-family: 'roboto';	 
 }
 
-th { 
-font-size: ;
-font-family:'times new Roman'; ,sans-serif;
-
-}
-
-
 li {
   font-family: cursive;
 font-weight: 400;
-font-size: 20px;
+
 } 
 
 
-i,td {
-  font-family: cursive;
-font-weight: 500;
+td {
+  font-family: ;
+font-weight: 400;
 
+} 
+
+i td{
+  Font-family: cursive ;
+  font-weight: 500;
 }
 
 
