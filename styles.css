@@ -11,7 +11,7 @@ html {
 body { 
 container: system-ui;
 background-color:orange; 
-color:#0f96d4;
+color:#10a1e4;
 text-align:center;
 min-height: 100vh;
 max-width: 900px;
@@ -402,7 +402,9 @@ img:hover{-webkit-filter:none;}
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/03/01/07/fractal-1793218_960_720.jpg');
+	  
+	  https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg');
 	  
 	  https://cdn.pixabay.com/photo/2017/09/18/15/38/moon-2762111_960_720.jpg');
 	  
