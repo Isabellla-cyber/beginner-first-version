@@ -11,7 +11,7 @@ html {
 body { 
 container: system-ui;
 background-color:orange; 
-color:blue;
+color:;
 text-align:center;
 min-height: 100vh;
 max-width: 900px;
@@ -528,7 +528,7 @@ body {top: 0px!important;}
 
 .h1 {
   font-size: 3.4rem;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Relaway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 2.5rem;
