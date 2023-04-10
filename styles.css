@@ -157,7 +157,7 @@ font-family:'roboto';
 th { 
 font-size: ;
 font-family:'times new Roman'; ,sans-serif;
-font-size: 13px;
+font-size: 15px;
 }
 
 li {
@@ -550,10 +550,10 @@ body {top: 0px!important;}
 @media screen and (max-width: 1000px) {
   .h1 {
   max-width: 70%;
-  padding: 5rem 1rem;
+  padding: 4rem 1rem;
  }
   .h2 {
-    font-size: 4rem;   
+    font-size: 3rem;   
   }
 }
   
