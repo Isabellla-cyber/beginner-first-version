@@ -149,9 +149,17 @@ font-family:' ';
 }
 
 h3{ 
-font-size: 15px;
+font-size: 16px;
 font-family:' ';	 
 }
+
+h6{ 
+font-size: 6px;
+font-family:' ';	 
+}
+
+
+
 
 mark{ 
 font-size: 
