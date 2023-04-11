@@ -514,51 +514,6 @@ body {top: 0px!important;}
 
 
 
-.h1 {
-  font-size: 3.4rem;
-  font-family: 'Releway', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 2.5rem;
-}
-
-.h2 {
-  font-size: 1.8rem;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
-}
-
-
-
-/*  Responsive */
-
-@media screen and (max-width: 1000px) {
-  .h1 {
-  max-width: 70%;
-  padding: 5rem 1rem;
- }
-  .h2 {
-    font-size: 4rem;   
-  }
-}
-  
-@media screen and (max-width: 767px) {
-  .h1 {
-  max-width: 100%;
-  padding: 2rem;
-  top: initial;
-  bottom: 0;
-  transform: initial;
- }
-  
-  .h1 {
-    font-size: 4rem;
-  }
-  .h2 {
-    font-size: 1.4rem;
-  }
-}
 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
