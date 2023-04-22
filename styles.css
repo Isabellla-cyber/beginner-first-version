@@ -448,13 +448,19 @@ img:hover{-webkit-filter:none;}
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/03/01/07/fractal-1793218_960_720.jpg');
-  https://cdn.pixabay.com/photo/2012/08/25/22/22/saturn-54999_960_720.jpg')
+  background-image: url('('https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg');
+  https://cdn.pixabay.com/photo/2016/11/03/01/07/fractal-1793218_960_720.jpg');
+ 
   backgroung repeat: no-repeat;
   background-color:;
   background-cover: cover;
+background-attachment: fixed;	  
 }
-  
+
+
+  background- no repeat
+   background-attachment: fixed
+   background-size: 100% 100% 
   
 background:#212121;
 background-image: 
