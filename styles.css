@@ -458,7 +458,7 @@ body {
     https://cdn.pixabay.com/photo/2020/01/20/20/26/full-moon-4781350_960_720.jpg'); 
     
   https://cdn.pixabay.com/photo/2012/08/25/22/22/saturn-54999_960_720.jpg')
-  backgroung repeat: no-repeat
+  backgroung repeat: no-repeat;
   background-color:;
   background-attachment: fixed;
   background-cover: cover;
