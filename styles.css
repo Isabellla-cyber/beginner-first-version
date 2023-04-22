@@ -445,22 +445,36 @@ img:hover{-webkit-filter:none;}
 
 
 
+
 * {box-sizing: border-box;}
 html, body {height:100%;}
 body { 
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg');
- 
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/03/01/07/fractal-1793218_960_720.jpg');
+    
+    https://cdn.pixabay.com/photo/2017/09/18/15/38/moon-2762111_960_720.jpg'); 
+    
+    https://cdn.pixabay.com/photo/2020/01/20/20/26/full-moon-4781350_960_720.jpg'); 
+    
+  https://cdn.pixabay.com/photo/2012/08/25/22/22/saturn-54999_960_720.jpg')
   backgroung repeat: no-repeat;
   background-color:;
   background-cover: cover;
-	
-   background- no repeat
-   background-attachment: fixed;
-   background-size: 100% 100%
-	
-	
 }
-
+  
+  
+background:#212121;
+background-image: 
+background-image:linear-gradient(180deg,lightgreen,skyblue,purple)
+  background-image: 
+    url("https://images.unsplash.com/photo-1547132025-0868fd15d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&outo=format&fit=crop&w=2250&q=80"
+  background-size: cover;
+  padding: 0 16px;
+	// top:0!important; // Prevent Google Topbar from pushing down body.
+  h1 {color:#fff; margin: 1em 0 0.5em 0; letter-spacing: -1px;}
+	h2 {color:#fff; margin: 0 0 1em 0; font-weight:100;font-size: 1.8em; letter-spacing: -1px;}
+  p {color:#fff;}
+  a {color:#fff;}
+}
 // .goog-te-banner-frame {display:none;} // Don't show Google Topbar
 // #goog-gt-tt {display:none!important;visibility:hidden!important;}
 
