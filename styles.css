@@ -11,7 +11,7 @@ html {
 body { 
 container: system-ui;
 background-color:orange; 
-color:#728fce;
+color:blue;
 text-align:center;
 min-height: 100vh;
 max-width: 1003px;
