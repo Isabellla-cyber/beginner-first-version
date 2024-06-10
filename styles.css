@@ -11,7 +11,7 @@ html {
 body { 
 container: system-ui;
 background-color:orange; 
-color:blue;
+color:#728fce;
 text-align:center;
 min-height: 100vh;
 max-width: 1003px;
@@ -29,7 +29,6 @@ body {
   min-height: 100vh;
   width: 100%;
 }
-
 
 
 @import "compass/css3"
@@ -98,6 +97,25 @@ mark {
 
 div:hover{
 background-color:#f8f0e3;fbe7c6;FFEBCD;ffe8ff;fff2ff;ffdeff;FFEBCD;FAEBD7;FFEBCD;FFE4C4;f8f0e3;ffe4c6;fff0df;
+}
+
+img{
+  border-radius: %;
+}
+img{
+}
+
+img{
+  border: 5px solid #555;
+}
+
+img{
+  opacity: 0.5px
+}
+
+
+img:hover {
+  opacity: 0.5;
 }
 
 margin: 0;
@@ -201,6 +219,22 @@ i td {
 }
 
 
+
+
+
+
+
+
+
+div{
+  img{ 
+  }
+  * {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   text-align:
   margin:
@@ -217,6 +251,7 @@ img {
   max-width:;
   margin: ;
   padding:;
+
 }
 
     url(
@@ -554,6 +589,7 @@ body {top: 0px!important;}
   }
   .h2 {
     font-size: 1.4rem;
+   
   }
 }
 
