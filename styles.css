@@ -1,5 +1,5 @@
 {
-  margin: 0;
+  margin: 0;Systems Engineer: Work
   padding: 0;
   box-sizing: border-box;
 }
@@ -7,11 +7,10 @@ html {
   font-size: 10px;
 }
 
-
 body { 
 container: system-ui;
 background-color:orange; 
-color:#728fce;
+color :#728fce;
 text-align:center;
 min-height: 100vh;
 max-width: 1003px;
@@ -29,6 +28,7 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+
 
 
 @import "compass/css3"
@@ -96,13 +96,16 @@ mark {
 }
 
 div:hover{
-background-color:#f8f0e3;fbe7c6;FFEBCD;ffe8ff;fff2ff;ffdeff;FFEBCD;FAEBD7;FFEBCD;FFE4C4;f8f0e3;ffe4c6;fff0df;
+background-color:#BFC1C2;E5E4E2;f8f0e3;fbe7c6;FFEBCD;ffe8ff; ;ACACAC;BFC1C2;E5E4E2;f8f0e3;fbe7c6;FFEBCD;ffe8ff;
+fff2ff;ffdeff;FFEBCD;FAEBD7;FFEBCD;FFE4C4;f8f0e3;ffe4c6;fff0df;
 }
+  
 
 img{
   border-radius: %;
 }
 img{
+  
 }
 
 img{
@@ -117,6 +120,9 @@ img{
 img:hover {
   opacity: 0.5;
 }
+
+
+
 
 margin: 0;
 padding: 0;
@@ -137,7 +143,7 @@ mix-blend-mode: hue;
 
 h2{ 
 font-size: 24.5px;
-font-family:' ';	 
+font-family:''times new Roman'; ,sans-serif';	 
 }
 
 h1{ 
@@ -156,7 +162,7 @@ font-family:' ';
 }
 
 h5{ 
-font-size: 
+font-size: 12px; 
 font-family:' ';	 
 }
 
@@ -188,8 +194,13 @@ text-align: center;
 
 }
 img{ 
-img-align: center; 
+img-align: center; 	 
 }
+li,font-color{ 
+font-size: 21px;
+font-family:'roboto';	 
+}
+
 
 li,font-color{ 
 font-size: 21px;
@@ -227,7 +238,7 @@ i td {
 
 
 div{
-  img{ 
+  img{
   }
   * {
   margin: 0;
@@ -251,7 +262,14 @@ img {
   max-width:;
   margin: ;
   padding:;
+}
 
+img:nth-of-type(1) {
+  filter: brightness(1);
+}
+
+img:nth-of-type(1) {
+  filter: brightness();
 }
 
     url(
@@ -280,6 +298,8 @@ body{
 html,body{
   hight:100%
 }
+
+
 button{
   button-align:left;
   display:grid 
@@ -297,7 +317,7 @@ button{
   lign-height:1.6rem;
   font-size:0.6rem;
   color:#ada;
-  background-color:violet; 
+  background-color: violet; 
   transition: transform 50ms;
 }
 
@@ -403,7 +423,6 @@ $white: #fff;
 }
 
 
-
 body
 {
   background-color:#03030a;
@@ -434,16 +453,10 @@ img
 img:hover{-webkit-filter:none;}
 
 
-}
-
-
-
-
 
 * {box-sizing: border-box;}
 html, body {height:100%;}
-body { 
- 
+body {  
 background:#212121;
 background-image: 
 background-image:linear-gradient(180deg,lightgreen,skyblue,purple)
@@ -546,6 +559,34 @@ body {top: 0px!important;}
 
 
 
+
+
+* {box-sizing: border-box;}
+html, body {height:100%;}
+body { 
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg');
+    
+     https://cdn.pixabay.com/photo/2016/11/03/01/07/fractal-1793218_960_720.jpg');
+    
+    https://cdn.pixabay.com/photo/2017/09/18/15/38/moon-2762111_960_720.jpg'); 
+    
+    https://cdn.pixabay.com/photo/2020/01/20/20/26/full-moon-4781350_960_720.jpg'); 
+    
+  https://cdn.pixabay.com/photo/2012/08/25/22/22/saturn-54999_960_720.jpg')
+  backgroung repeat: no-repeat;
+  background-color:;
+  background-attachment: fixed;
+  background-cover: cover;
+}
+  
+
+
+
+
+
+
+
+
 .h1 {
   font-size: 3.4rem;
   font-family: 'Raleway', sans-serif;
@@ -589,7 +630,6 @@ body {top: 0px!important;}
   }
   .h2 {
     font-size: 1.4rem;
-   
   }
 }
 
