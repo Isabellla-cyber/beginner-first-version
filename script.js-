@@ -1,222 +1,33 @@
-:root {
-  --primary-purple: #6a1b9a;
-  --sky-blue-container: orange; #e3f2fd;
-  --accent-gold: #edc967;
-  --text-dark: #2d3436;
-}
+let slideIndex = 0;
+showSlides();
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  line-height: 1.8;
-  background: linear-gradient(135deg, #d1d8e0 0%, #a5abb6 100%);
-  background-attachment: fixed;
-  color: var(--text-dark);
-  padding: 20px;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 40px auto;
-  background: var(--sky-blue-container);
-  padding: 60px;
-  border-radius: 30px;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
-}
-
-/* New Header Style for "IF YOU BELIEVE" */
-.top-header-bar {
-  background-color: purple;
-  color: var(--accent-gold);
-  padding: 15px;
-  border-radius: 15px 15px 0 0;
-  text-align: center;
-  margin: -60px -60px 40px -60px; /* Aligns to the very top of the blue container */
-}
-
-.main-question {
-  text-align: center;
-  margin-bottom: 30px;
-  line-height: 1.4;
-}
-
-#google_translate_element {
-  text-align: right;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 3rem;
-  color: var(--primary-purple);
-  margin-bottom: 20px;
-  letter-spacing: -1px;
-  text-align: center;
-}
-
-.article-content {
-  text-align: left;
-  margin-bottom: 40px;
-}
-
-.section-group {
-  background: rgba(255, 255, 255, 0.5);
-  padding: 25px;
-  border-radius: 15px;
-  margin-bottom: 25px;
-  border-left: 5px solid var(--primary-purple);
-}
-
-.section-title {
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #000;
-  display: block;
-}
-
-p {
-  margin-bottom: 15px;
-  color: #444;
-}
-
-b {
-  color: #8b0000;
-}
-mark {
-  background-color: #d4edda;
-  color: darkgreen;
-  padding: 2px 8px;
-  border-radius: 4px;
-}
-
-.slideshow-outer {
-  margin: 50px 0;
-  text-align: center;
-}
-
-.slideshow-container {
-  max-width: 600px;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
-.mySlides img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  display: block;
-}
-
-.slide-text {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(5px);
-  color: white;
-  padding: 15px;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-bottom: 50px;
-}
-
-iframe {
-  width: 100%;
-  border-radius: 15px;
-  border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-}
-
-.btn-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 15px;
-  margin: 40px 0;
-}
-
-.btn-table td {
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 15px;
-}
-
-button {
-  background-color: var(--primary-purple);
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  border-radius: 50px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(106, 27, 154, 0.3);
-}
-
-button:hover {
-  background-color: #4a148c;
-  transform: translateY(-2px);
-}
-
-.cursive-text {
-  font-family: "Indie Flower", cursive;
-  font-size: 1.1rem;
-  padding-left: 20px;
-}
-
-footer {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  color: #777;
-  text-align: center;
-}
-
-.disclaimer {
-  background: #fff0f0;
-  color: #c0392b;
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 20px;
-  font-weight: 600;
-  display: inline-block;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  to {
-    opacity: 1;
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
   }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 4000);
 }
 
+function sendEmailDefault() {
+  var email = "example@example.com";
+  var subject = "Support Request";
+  var msgBody = "Hello, I would like to reach out for support.";
+  window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
+}
 
-h2{
-  font-family: "roboto", serif;
-  }
-
-
-
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: "en" },
+    "google_translate_element"
+  );
+}
 
 
 
