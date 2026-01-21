@@ -5,17 +5,16 @@
   <meta name="google-site-verification" content=""xpVDn31RMTUr5xDRnSMO07hiG4-WDTU-UKIDA7b_SkA"/>
  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discover | Software Engineering Journey</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&family=Material+Icons&display=swap" rel="stylesheet">
+  <title>Overcoming Rock Bottom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Indie+Flower&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
   <style>
-    /* === CSS SECTION (FIXED) === */
+    /* Fixed: Removed the 'orange;' blocker so the sky blue loads correctly */
     :root {
-      --primary: #6c2dc7;
-      --secondary: #bf40bf;
-      --dark: #1a1a1a;
-      --light: #f4f4f4;
-      --accent: #ff4500;
+      --primary-purple: #6a1b9a;
+      --sky-blue-container: #e3f2fd;
+      --accent-gold: #edc967;
+      --text-dark: #2d3436;
     }
 
     * {
@@ -26,224 +25,219 @@
 
     body {
       font-family: "Poppins", sans-serif;
-      line-height: 1.6;
-      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-      color: #eee;
+      line-height: 1.8;
+      background: linear-gradient(135deg, #d1d8e0 0%, #a5abb6 100%);
+      background-attachment: fixed;
+      color: var(--text-dark);
       padding: 20px;
     }
 
     .container {
       max-width: 1000px;
-      margin: 0 auto;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 40px;
-      border-radius: 20px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      margin: 40px auto;
+      background: var(--sky-blue-container);
+      padding: 60px;
+      border-radius: 30px;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
     }
 
-    header { text-align: center; margin-bottom: 40px; }
+    .top-header-bar {
+      background-color: purple;
+      color: var(--accent-gold);
+      padding: 15px;
+      border-radius: 15px 15px 0 0;
+      text-align: center;
+      margin: -60px -60px 40px -60px;
+    }
 
-    h1 {
-      color: var(--primary);
-      font-size: 3rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+    .main-question {
+      text-align: center;
+      margin-bottom: 30px;
+      line-height: 1.4;
     }
 
     #google_translate_element {
-      margin: 20px 0;
-      padding: 10px;
-      background: #fff;
-      border-radius: 8px;
-      display: inline-block;
+      text-align: right;
+      margin-bottom: 20px;
     }
 
-    .content-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      margin-top: 30px;
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 3rem;
+      color: var(--primary-purple);
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+      text-align: center;
     }
 
-    @media (max-width: 768px) {
-      .content-grid { grid-template-columns: 1fr; }
+    .article-content {
+      text-align: left;
+      margin-bottom: 40px;
     }
 
-    .card {
-      background: rgba(255, 255, 255, 0.1);
+    .section-group {
+      background: rgba(255, 255, 255, 0.5);
       padding: 25px;
       border-radius: 15px;
-      border-left: 5px solid var(--secondary);
+      margin-bottom: 25px;
+      border-left: 5px solid var(--primary-purple);
     }
 
-    .highlight { color: var(--secondary); font-weight: 600; }
+    p { margin-bottom: 15px; color: #444; }
+    b { color: #8b0000; }
+    
+    mark {
+      background-color: #d4edda;
+      color: darkgreen;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
 
     .slideshow-container {
+      max-width: 600px;
       position: relative;
-      max-width: 100%;
-      border-radius: 15px;
+      margin: 50px auto;
+      border-radius: 20px;
       overflow: hidden;
-      margin: 20px 0;
-      border: 3px solid #444;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
     }
 
     .mySlides { display: none; }
-    .mySlides img { width: 100%; height: 300px; object-fit: cover; }
+    .mySlides img { width: 100%; height: 400px; object-fit: cover; display: block; }
 
-    .caption {
+    .slide-text {
       position: absolute;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.7);
       width: 100%;
-      padding: 10px;
-      text-align: center;
-      color: pink;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(5px);
+      color: white;
+      padding: 15px;
+      font-size: 1.5rem;
     }
 
-    .image-row {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin: 30px 0;
-      flex-wrap: wrap;
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 50px;
     }
 
-    .small-pic {
-      width: 150px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 10px;
-      border: 2px solid #444;
-      transition: 0.3s;
-    }
+    iframe { width: 100%; border-radius: 15px; border: none; }
 
-    .btn-group {
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-      margin-top: 20px;
-      flex-wrap: wrap;
-    }
+    .btn-table { width: 100%; border-collapse: separate; border-spacing: 0 15px; }
+    .btn-table td { padding: 20px; background: rgba(255, 255, 255, 0.4); border-radius: 15px; }
 
-    button, .link-btn {
-      padding: 12px 25px;
-      border-radius: 30px;
+    button {
+      background-color: var(--primary-purple);
+      color: white;
       border: none;
+      padding: 15px 30px;
       cursor: pointer;
-      font-weight: bold;
-      text-decoration: none;
-      transition: 0.3s;
+      border-radius: 50px;
+      font-weight: 600;
     }
 
-    .primary-btn { background: var(--primary); color: white; }
-    .primary-btn:hover { background: var(--secondary); transform: scale(1.05); }
+    .cursive-text { font-family: "Indie Flower", cursive; font-size: 1.1rem; padding-left: 20px; }
 
-    .like-button { background: #444; color: white; display: flex; align-items: center; gap: 8px; }
-    .like-button.active { color: #ff4f8f; }
-
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      padding-top: 20px;
-      border-top: 1px solid #444;
-      font-size: 0.9rem;
-      color: #888;
-    }
+    footer { margin-top: 60px; text-align: center; color: #777; }
+    .disclaimer { background: #fff0f0; color: #c0392b; padding: 15px; border-radius: 10px; font-weight: 600; }
 
     .fade { animation: fade 1.5s; }
     @keyframes fade { from {opacity: 0.4} to {opacity: 1} }
+    h2 { font-family: "Roboto", sans-serif; }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <header>
-      <h1>Discover</h1>
-      <p class="highlight">Second Version - 2024</p>
-      <div id="google_translate_element"></div>
-    </header>
+    <div class="top-header-bar">
+      <h6><b>IF YOU BELIEVE</b></h6>
+    </div>
 
-    <div class="content-grid">
-      <div class="card">
-        <h3>The Adventure</h3>
-        <p>A few years ago, I embarked on the wonderful adventure of learning Software Engineering in English. After having learned programming in Portuguese, I dove into this new field and completed my program in <strong>April 2024</strong>.</p>
-        <br>
-        <h3>What I have learned:</h3>
-        <p><span class="highlight">1. It’s Possible:</span> Study from home.</p>
-        <p><span class="highlight">2. Perseverance:</span> The journey is worth every step.</p>
+    <div id="google_translate_element"></div>
+
+    <div class="main-question">
+      <h2><u><mark><b><i>ROCK BOTTOM. HAVE YOU EVER BEEN THERE?</i></b></mark></u></h2>
+    </div>
+
+    <h1>Overcoming Rock Bottom</h1>
+
+    <div class="article-content">
+      <div class="section-group">
+        <p><i><b>Have you ever felt like you've lost your strength? Life can lead us to the proverbial “rock bottom.” But even in those darkest moments, there’s hope.</b></i></p>
+        <p><b>&#x2022; Adverse Childhood Experiences:</b> Children reporting traumatic events need support. Trauma can resurface later in life.</p>
+        <p><b>&#x2022; Life Transitions:</b> Divorce, job loss, or addictions can destabilize us.</p>
       </div>
 
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649014_1280.png" alt="AI Future">
-          <div class="caption">The Future is Here</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649016_1280.png" alt="AI">
-          <div class="caption">Artificial Intelligence</div>
-        </div>
-        <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649013_1280.png" alt="Robot">
-          <div class="caption">Innovation</div>
-        </div>
+      <div class="section-group">
+        <p><b>&#x2022; Believe in Change:</b> Change is possible. There is light at the end of the tunnel.</p>
+        <p><b>&#x2022; Perseverance:</b> Keep looking for the exit of the maze.</p>
       </div>
     </div>
 
-    <div class="image-row">
-      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649014_1280.png" class="small-pic" alt="Feature 1">
-      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649016_1280.png" class="small-pic" alt="Feature 2">
-      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649013_1280.png" class="small-pic" alt="Feature 3">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_1280.jpg" alt="kingfisher">
+        <div class="slide-text">Hope</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_1280.jpg" alt="spring">
+        <div class="slide-text">Serenity</div>
+      </div>
     </div>
 
-    <div class="btn-group">
-      <a href="https://www.dukelearntoprogram.com/" target="_blank" class="link-btn primary-btn">Duke Learn to Program</a>
-      <button onclick="window.location.href='mailto:example@email.com'" class="primary-btn">Send Email</button>
-      <button class="like-button" id="likeBtn">
-        <i class="material-icons">favorite</i> Like
-      </button>
+    <div style="text-align: center; margin-bottom: 40px;">
+      <span style="color: var(--primary-purple); font-weight: bold;">Available Languages:</span> Portuguese, Spanish, English.
     </div>
+
+    <div class="video-section">
+      <h2 style="text-align: center; margin-bottom: 20px;">Songs for your Delight</h2>
+      <div class="video-grid">
+        <iframe height="200" src="https://www.youtube.com/embed/LKaXY4IdZ40"></iframe>
+        <iframe height="200" src="https://www.youtube.com/embed/bto_IqNmOCU"></iframe>
+      </div>
+    </div>
+
+    <table class="btn-table">
+      <tr>
+        <td width="200"><button onclick="sendEmailDefault()">Contact Us</button></td>
+        <td class="cursive-text" style="color: purple;">Peace, hope, Joy, and Love.</td>
+      </tr>
+      <tr>
+        <td><button onclick="sendEmailDefault()">Get Support</button></td>
+        <td class="cursive-text" style="color: blue;">Determination and Rewards.</td>
+      </tr>
+    </table>
 
     <footer>
-      <p>&copy; 2024 All Rights Reserved. Built with passion for technology.</p>
+      <p>Copyright &copy; All rights reserved-2025</p>
+      <div class="disclaimer">DISCLAIMER: This page is for encouragement.</div>
     </footer>
   </div>
 
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <script>
+    /* JAVASCRIPT - FIXED LOGIC */
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: "en",
-        includedLanguages: "af,de,en,es,fr,it,ja,pt,tr",
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, "google_translate_element");
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     }
 
     let slideIndex = 0;
     function showSlides() {
       let slides = document.getElementsByClassName("mySlides");
-      if (slides.length === 0) return;
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
+      for (let i = 0; i < slides.length; i++) { slides[i].style.display = "none"; }
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1; }
-      slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 3000);
+      if (slides[slideIndex-1]) slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 4000);
     }
     showSlides();
 
-    document.getElementById("likeBtn").addEventListener("click", function() {
-      this.classList.toggle("active");
-    });
+    function sendEmailDefault() {
+      window.open("mailto:example@example.com?subject=Support Request&body=Hello!");
+    }
   </script>
-
 </body>
 </html>
-
-
-  
-  
-
-<!              <p>        <p 
