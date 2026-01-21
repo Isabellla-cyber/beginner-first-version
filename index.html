@@ -5,148 +5,245 @@
   <meta name="google-site-verification" content=""xpVDn31RMTUr5xDRnSMO07hiG4-WDTU-UKIDA7b_SkA"/>
  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Overcoming Rock Bottom</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Indie+Flower&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <title>Discover | Software Engineering Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&family=Material+Icons&display=swap" rel="stylesheet">
 
   <style>
-    /* Global Styles */
+    /* === CSS SECTION (FIXED) === */
+    :root {
+      --primary: #6c2dc7;
+      --secondary: #bf40bf;
+      --dark: #1a1a1a;
+      --light: #f4f4f4;
+      --accent: #ff4500;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      color: #eee;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    header { text-align: center; margin-bottom: 40px; }
+
+    h1 {
+      color: var(--primary);
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    #google_translate_element {
+      margin: 20px 0;
+      padding: 10px;
+      background: #fff;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .content-grid { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 15px;
+      border-left: 5px solid var(--secondary);
+    }
+
+    .highlight { color: var(--secondary); font-weight: 600; }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: 20px 0;
+      border: 3px solid #444;
+    }
+
+    .mySlides { display: none; }
+    .mySlides img { width: 100%; height: 300px; object-fit: cover; }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      color: pink;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+
+    .small-pic {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #444;
+      transition: 0.3s;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    button, .link-btn {
+      padding: 12px 25px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .primary-btn { background: var(--primary); color: white; }
+    .primary-btn:hover { background: var(--secondary); transform: scale(1.05); }
+
+    .like-button { background: #444; color: white; display: flex; align-items: center; gap: 8px; }
+    .like-button.active { color: #ff4f8f; }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #444;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .fade { animation: fade 1.5s; }
+    @keyframes fade { from {opacity: 0.4} to {opacity: 1} }
   </style>
 </head>
-
 <body>
 
   <div class="container">
-    <div class="top-header-bar">
-      <h6><b>IF YOU BELIEVE</b></h6>
-    </div>
+    <header>
+      <h1>Discover</h1>
+      <p class="highlight">Second Version - 2024</p>
+      <div id="google_translate_element"></div>
+    </header>
 
-    <div id="google_translate_element"></div>
-
-    <div class="main-question">
-      <h2><u><mark><b><i>ROCK BOTTOM. HAVE YOU EVER BEEN THERE? HOW MANY TIMES? HOW DID YOU MANAGE TO GET OUT?</i></b></mark></u></h2>
-    </div>
-
-    <h1>Overcoming Rock Bottom</h1>
-
-    <div class="article-content">
-
-      <div class="section-group">
-        <p><i><b>Have you ever felt like you've lost your strength and don't know where to go or how to get up? Life can sometimes lead us to a place where everything feels like it’s falling apart—the proverbial “rock bottom.” It’s a place of despair, hopelessness, and deep struggle. But even in those darkest moments, there’s a glimmer of hope. Let’s explore this concept together.</b></i></p>
-
-        <p style="color: black; font-weight: 600;">Navigating Rock Bottom</p>
-
-        <p style="color: black;">1. Understanding Rock Bottom</p>
-        <p><b>&#x2022; Emotional Desolation:</b></p>
-        <p>Rock bottom is when you feel emotionally and mentally drained. It’s a point where you’ve hit the lowest of lows.</p>
-
-        <p style="color: black;">2. Loss and Struggle:</p>
-        <p>It often follows significant losses—whether it’s a relationship, a job, health, finances or personal dreams.</p>
-
-        <p style="color: black;">3. Isolation:</p>
-        <p>You may feel isolated, as if no one truly understands your pain.</p>
+    <div class="content-grid">
+      <div class="card">
+        <h3>The Adventure</h3>
+        <p>A few years ago, I embarked on the wonderful adventure of learning Software Engineering in English. After having learned programming in Portuguese, I dove into this new field and completed my program in <strong>April 2024</strong>.</p>
+        <br>
+        <h3>What I have learned:</h3>
+        <p><span class="highlight">1. It’s Possible:</span> Study from home.</p>
+        <p><span class="highlight">2. Perseverance:</span> The journey is worth every step.</p>
       </div>
 
-      <div class="section-group">
-        <p style="color: black;" class="section-title">4. Common Causes:</p>
-        <p><b>&#x2022; Trauma:</b></p>
-        <p>Traumatic events can push us to rock bottom. These might include accidents, loss of loved ones, experiencing abuse or serious health issues.</p>
-
-        <p><b>&#x2022; Adverse Childhood Experiences:</b></p>
-        <p>More than <b>two thirds</b> of children reported at least 1 traumatic event by age 16. Childhood trauma can resurface later in life, affecting our mental and emotional well-being. (Childhood trauma occurs more often than we might think).</p>
-
-        <p><b>&#x2022; Life Transitions:</b></p>
-        <p>Major life changes (divorce, job loss, addictions, And other significant Negative life events, that were unexpected etc.) can destabilize us.</p>
-
-        <p><b>&#x2022; Unhealthy Environments:</b></p>
-        <p>Growing up in an unhealthy or abusive environment or dealing with an abusive parents or partner can leave lasting scars.</p>
-      </div>
-
-      <div class="section-group" style="border-left-color: var(--accent-gold);">
-        <p class="section-title">5. Finding Light:</p>
-        <p><b>&#x2022; Believe in Change:</b></p>
-        <p>Even in the darkest moments, believe that change is possible. There’s always a way out. <mark><b>(There's a light at the end of the tunnel).</b></mark></p>
-
-        <p><b>&#x2022; Perseverance:</b></p>
-        <p>Have faith in your efforts. Persevere, even when it feels impossible.</p>
-
-        <p><b>&#x2022; Seek Support:</b></p>
-        <p>Reach out to others. You’re not alone. Friends, family, or professionals can provide guidance.</p>
-
-        <p><b>&#x2022; Remember the Maze:</b></p>
-        <p>Imagine being lost in a maze—you’ll find a way out eventually. <b>As long as you keep on looking:</b> using one of the methods to get out of maze, The same applies to life.</p>
-      </div>
-
-      <div class="section-group">
-        <p class="section-title">6. Rebuilding:</p>
-        <p><b>&#x2022; Strength from Struggle:</b></p>
-        <p>Sometimes we can’t regain what we lost, but we can emerge stronger.</p>
-
-        <p><b>&#x2022; Positive Outlook:</b></p>
-        <p>Cultivate a positive mindset. It shapes your journey forward.</p>
-
-        <p><b>&#x2022; Equipped for the Future:</b></p>
-        <p>Rock bottom can be a turning point. Use the experience to grow and learn.</p>
-      </div>
-
-      <div style="text-align: center; margin-top: 40px; font-style: italic;">
-        <p style="font-size: 1.2rem; font-weight: 600;">Remember, you are not alone.</p>
-        <p>“There’s always a path upward, even when it seems hidden. Reach out, seek help, and believe in your resilience and in the impossible.” Remember, sometimes the most challenging paths lead to the most rewarding destinations.</p>
-      </div>
-    </div>
-
-    <div class="slideshow-outer">
       <div class="slideshow-container">
         <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_1280.jpg" alt="kingfisher">
-          <div class="slide-text">Hope</div>
+          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649014_1280.png" alt="AI Future">
+          <div class="caption">The Future is Here</div>
         </div>
         <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_1280.jpg" alt="spring">
-          <div class="slide-text">Serenity</div>
+          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649016_1280.png" alt="AI">
+          <div class="caption">Artificial Intelligence</div>
         </div>
         <div class="mySlides fade">
-          <img src="https://cdn.pixabay.com/photo/2017/08/25/15/16/dove-2680487_1280.jpg" alt="dove">
-          <div class="slide-text">Peace</div>
+          <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649013_1280.png" alt="Robot">
+          <div class="caption">Innovation</div>
         </div>
       </div>
     </div>
 
-    <div style="text-align: center; margin-bottom: 40px;">
-      <span style="color: var(--primary-purple); font-weight: bold;">Available Languages:</span> Portuguese, Spanish, English and more.
+    <div class="image-row">
+      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649014_1280.png" class="small-pic" alt="Feature 1">
+      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649016_1280.png" class="small-pic" alt="Feature 2">
+      <img src="https://cdn.pixabay.com/photo/2024/03/22/06/06/ai-generated-8649013_1280.png" class="small-pic" alt="Feature 3">
     </div>
 
-    <div class="video-section">
-      <h2 style="text-align: center; margin-bottom: 20px;">Songs for your Delight</h2>
-      <div class="video-grid">
-
-        <iframe height="200" src="https://www.youtube.com/embed/LKaXY4IdZ40" allowfullscreen></iframe>
-        <iframe height="200" src="https://www.youtube.com/embed/bto_IqNmOCU" allowfullscreen></iframe>
-      </div>
+    <div class="btn-group">
+      <a href="https://www.dukelearntoprogram.com/" target="_blank" class="link-btn primary-btn">Duke Learn to Program</a>
+      <button onclick="window.location.href='mailto:example@email.com'" class="primary-btn">Send Email</button>
+      <button class="like-button" id="likeBtn">
+        <i class="material-icons">favorite</i> Like
+      </button>
     </div>
-
-    <table class="btn-table">
-      <tr>
-        <td width="200"><button onclick="sendEmailDefault()">Contact Us</button></td>
-        <td class="cursive-text" style="color: purple;">Peace, hope, Joy, and Love. Faith and determination.</td>
-      </tr>
-      <tr>
-        <td><button onclick="sendEmailDefault()">Get Support</button></td>
-        <td class="cursive-text" style="color: blue;">Determination, endurance, hope, and Rewards.</td>
-      </tr>
-    </table>
 
     <footer>
-      <p>Thank you for visiting.</p>
-      <p>Copyright &copy; All rights reserved-2025</p>
-      <div class="disclaimer">
-        DISCLAIMER: This page is dedicated to encouraging anyone positively.
-      </div>
+      <p>&copy; 2024 All Rights Reserved. Built with passion for technology.</p>
     </footer>
   </div>
 
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: "en",
+        includedLanguages: "af,de,en,es,fr,it,ja,pt,tr",
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, "google_translate_element");
+    }
+
+    let slideIndex = 0;
+    function showSlides() {
+      let slides = document.getElementsByClassName("mySlides");
+      if (slides.length === 0) return;
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000);
+    }
+    showSlides();
+
+    document.getElementById("likeBtn").addEventListener("click", function() {
+      this.classList.toggle("active");
+    });
+  </script>
 
 </body>
-
 </html>
 
+
+  
+  
+
+<!              <p>        <p 
