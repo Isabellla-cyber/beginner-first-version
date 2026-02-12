@@ -1,2 +1,2 @@
-# Discover first project-beginner (Software engineer program. 
+# Discover first project, (Overcoming Rock Bottom) 
 Thank you.
